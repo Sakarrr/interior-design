@@ -1,0 +1,10 @@
+@mixin header-style {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: $color__primary;
+  border-radius: 4px;
+  height: 10px;
+  width: 60px;
+  bottom: -40px;
+}
