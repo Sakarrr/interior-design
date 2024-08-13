@@ -1,4 +1,9 @@
-.int-sidebar {
+/* Interior Sidebar */
+.interior-navbar {
+  display: none;
+}
+
+.interior-sidebar {
   position: fixed;
   font-weight: 700;
   color: #fff;
@@ -7,7 +12,7 @@
   height: 100%;
   overflow: auto;
 
-  .int-sidebar-header {
+  .interior-sidebar-header {
     font-size: 24px;
     max-width: 30px;
     margin: 120px 0 100px 30px;

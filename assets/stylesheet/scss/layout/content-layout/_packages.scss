@@ -1,0 +1,11 @@
+.int-packages {
+    .packages-list {
+      display: flex;
+    }
+  
+    .package-list {
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+    }
+  }
