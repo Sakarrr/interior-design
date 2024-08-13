@@ -1,7 +1,7 @@
 <div class="interior-navbar">
     <div class="container">
         <div class="row">
-            <div class="interior-sidebar-toggle">
+            <div class="interior-sidebar-toggle" id="interior-sidebar-toggle">
                 ☰
             </div>
             <div class="interior-branding">
@@ -14,9 +14,11 @@
 <div class="interior-sidebar">
     <div class="container">
         <div class="row">
+            <div class="interior-sidebar-close" id="interior-sidebar-close">
+                <span>Close Menu</span>
+            </div>
             <div class="interior-sidebar-header">
-                Company
-                Name
+                <b>Company Name</b>
             </div>
             <div class="interior-sidebar-menu">
                 <ul>

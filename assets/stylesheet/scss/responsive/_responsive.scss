@@ -1,5 +1,23 @@
 @media screen and (max-width: 992px) {
+  .interior-navbar {
+    display: block;
+  }
+
   .interior-sidebar {
     display: none;
+
+    &.open {
+      display: block;
+    }
+
+    .interior-sidebar-close {
+      display: flex;
+    }
+  }
+
+  .overlay {
+    &.open {
+      display: block;
+    }
   }
 }
