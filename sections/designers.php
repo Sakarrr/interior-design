@@ -1,4 +1,4 @@
-<div class="interior-designers">
+<div class="interior-designers" id="interior-designers">
     <div class="container">
         <div class="row">
             <h2> Designers. </h2>

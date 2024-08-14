@@ -1,4 +1,4 @@
-<div class="interior-packages">
+<div class="interior-packages" id="interior-packages">
     <div class="container">
         <div class="row">
             <h2>Packages.</h2>

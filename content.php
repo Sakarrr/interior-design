@@ -1,10 +1,10 @@
 <div class="interior-main">
     <div class="container">
-        <?php include 'showcase.php' ?>
-        <?php include 'services.php' ?>
-        <?php include 'designers.php' ?>
-        <?php include 'packages.php' ?>
-        <?php include 'contact.php' ?>
-        <?php include 'footer.php' ?>
+        <?php include './sections/showcase.php' ?>
+        <?php include './sections/services.php' ?>
+        <?php include './sections/designers.php' ?>
+        <?php include './sections/packages.php' ?>
+        <?php include './sections/contact.php' ?>
+        <?php include './sections/footer.php' ?>
     </div>
 </div>

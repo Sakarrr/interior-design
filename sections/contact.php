@@ -1,4 +1,4 @@
-<div class="interior-contact">
+<div class="interior-contact" id="interior-contact">
     <div class="container">
         <div class="row">
             <h2>Contact.</h2>
