@@ -1,6 +1,7 @@
 /* Interior Sidebar */
 .interior-navbar {
   display: none;
+  z-index: 5;
 
   .container {
     position: fixed;
@@ -49,7 +50,7 @@
   .interior-sidebar-header {
     font-size: 24px;
     max-width: 30px;
-    margin: 120px 0 100px 30px;
+    margin: 100px 0 80px 30px;
   }
 
   ul {

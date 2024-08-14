@@ -14,7 +14,6 @@ sidebarClose.addEventListener("click", () => {
 });
 
 document.addEventListener("click", (event) => {
-  console.log(event);
   if (
     !sidebar.contains(event.target) &&
     !sidebarToggle.contains(event.target)

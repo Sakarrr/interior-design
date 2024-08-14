@@ -1,16 +1,25 @@
-.int-showcase {
-    margin-bottom: 100px;
-  
-    .int-showcase-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto auto;
-      column-gap: 20px;
-      row-gap: 10px;
-  
-      img {
-        width: 100%;
-        max-width: 100%;
+.interior-showcase {
+  margin-bottom: 100px;
+
+  .interior-heading {
+    font-size: 64px;
+  }
+
+  .interior-showcase-photogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 20px;
+    row-gap: 10px;
+
+    img {
+      width: 100%;
+      max-width: 100%;
+      opacity: 0.8;
+
+      &:hover {
+        opacity: 1;
       }
     }
   }
+}

@@ -1,7 +1,7 @@
-<div class="int-main">
+<div class="interior-main">
     <div class="container">
-        <div class="int-main-header">
-
-        </div>
+        <?php include 'showcase.php' ?>
+        <?php include 'services.php' ?>
+        <?php include 'designers.php' ?>
     </div>
 </div>

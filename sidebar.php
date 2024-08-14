@@ -23,11 +23,11 @@
             <div class="interior-sidebar-menu">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Showcase</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Designers</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#interior-showcase">Showcase</a></li>
+                    <li><a href="#interior-services">Services</a></li>
+                    <li><a href="#interior-designers">Designers</a></li>
+                    <li><a href="#interior-packages">Packages</a></li>
+                    <li><a href="#interior-contact">Contact</a></li>
                 </ul>
             </div>
         </div>

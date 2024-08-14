@@ -6,28 +6,23 @@
 
 @import "./sidebar";
 
-.int-main {
-    width: 100%;
-    margin-left: 300px;
-  
-    .row {
-      margin: 120px 60px;
-    }
-  
-    .int-main-heading {
-      font-size: 64px;
-    }
-  
-    h2 {
-      position: relative;
-      font-size: 48px;
-      font-weight: 700;
-      color: $color__primary;
-      margin-bottom: 70px;
-  
-      &::after {
-        @include header-style;
-      }
+.interior-main {
+  width: 100%;
+  margin-left: 300px;
+
+  .row {
+    margin: 80px 60px 120px 60px;
+  }
+
+  h2 {
+    position: relative;
+    font-size: 48px;
+    font-weight: 700;
+    color: $color__primary;
+    margin-bottom: 70px;
+
+    &::after {
+      @include header-style;
     }
   }
-  
+}
