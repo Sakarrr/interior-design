@@ -8,7 +8,7 @@
             nisi ut aliquip ex ea commodo consequat. Duis aute irure
         </p>
         <div class="row packages-list">
-            <div class="package-list">
+            <div class="package-list col-6">
                 <ul>
                     <li>
                         Basic
@@ -38,7 +38,7 @@
                 </ul>
             </div>
 
-            <div class="package-list pro">
+            <div class="package-list col-6 pro">
                 <ul>
                     <li class="pro">
                         Pro

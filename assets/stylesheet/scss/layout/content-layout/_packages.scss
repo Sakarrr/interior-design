@@ -4,7 +4,6 @@
   }
 
   .packages-list {
-    display: flex;
     gap: 15px;
 
     ul {
@@ -63,11 +62,5 @@
         }
       }
     }
-  }
-
-  .package-list {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
   }
 }

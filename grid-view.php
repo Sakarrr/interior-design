@@ -16,11 +16,10 @@
 
 <div class="initial-overlay"></div>
 
-<body class="flex-box">
+<body class="grid-view">
 
     <?php include 'sidebar.php'; ?>
-    <div class=" overlay" id="overlay">
-    </div>
+    <div class="overlay" id="overlay"></div>
     <?php include 'content.php'; ?>
 
 

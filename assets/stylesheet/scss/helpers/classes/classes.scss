@@ -1,0 +1,19 @@
+.flex-box {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  .col {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .col-6 {
+    flex: 0 0 49%;
+    max-width: 49%;
+  }
+  .col-4 {
+    flex: 0 0 32%;
+    max-width: 32%;
+  }
+}
