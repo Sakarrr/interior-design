@@ -15,6 +15,10 @@
   .interior-sidebar {
     display: none;
 
+    .container {
+      margin: 0 !important;
+    }
+
     &.open {
       display: block;
     }
