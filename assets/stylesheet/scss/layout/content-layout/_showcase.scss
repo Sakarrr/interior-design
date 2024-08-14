@@ -5,25 +5,28 @@
   }
 
   .interior-showcase-photogrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    column-gap: 20px;
-    row-gap: 10px;
+    .row {
+      gap: 15px;
 
-    a {
-      &:nth-child(1),
-      &:nth-child(2) {
-        img {
-          aspect-ratio: 1/0.85;
+      .photogrid-left,
+      .photogrid-right {
+        flex-basis: 49%;
+      }
+
+      a {
+        &:nth-child(1) {
+          img {
+            aspect-ratio: 1/0.85;
+          }
         }
       }
     }
 
     img {
-      width: 100%;
+      max-width: 100%;
       aspect-ratio: 1/0.6;
       opacity: 0.8;
+      margin-bottom: 10px;
 
       &:hover {
         opacity: 1;
