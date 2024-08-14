@@ -41,12 +41,23 @@
 }
 
 @media screen and (max-width: $break_point_mobile) {
-  .interior-showcase {
-    .interior-showcase-photogrid {
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        "left"
-        "right";
+  .interior-showcase-photogrid {
+    .row {
+      .photo {
+        flex-basis: 100% !important;
+
+        &:nth-child(2) {
+          order: 4;
+        }
+
+        &:nth-child(4) {
+          order: 5;
+        }
+
+        &:nth-child(6) {
+          order: 6;
+        }
+      }
     }
   }
 
