@@ -1,0 +1,33 @@
+.float {
+  .interior-showcase-photogrid {
+    .photo {
+      float: left;
+      width: 50%;
+      padding: 10px;
+
+      //   &:nth-child(odd) {
+      //     float: left;
+      //   }
+
+      //   &:nth-child(even) {
+      //     float: right;
+      //   }
+    }
+  }
+
+  .interior-designers-list {
+    .interior-designer-card {
+      width: 33.33%;
+      float: left;
+      padding: 0 10px;
+    }
+  }
+
+  .interior-packages {
+    .package-list {
+      float: left;
+      width: 50%;
+      padding: 0 10px;
+    }
+  }
+}
