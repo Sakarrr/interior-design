@@ -37,6 +37,11 @@
   overflow: auto;
   z-index: 6;
 
+  .container {
+    padding: 8px 16px;
+    margin: 0;
+  }
+
   .interior-sidebar-close {
     display: none;
     justify-content: center;
@@ -50,12 +55,11 @@
   .interior-sidebar-header {
     font-size: 24px;
     max-width: 30px;
-    margin: 100px 0 80px 30px;
+    margin: 100px 10px 80px 10px;
   }
 
   ul {
     list-style-type: none;
-    padding: 0 20px;
 
     li {
       font-size: 18px;
