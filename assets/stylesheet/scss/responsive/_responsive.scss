@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: $break_point_tablet) {
   .interior-navbar {
     display: block;
   }
@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $break_point_mobile) {
   .interior-showcase {
     .interior-showcase-photogrid {
       grid-template-columns: 1fr;
