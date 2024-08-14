@@ -4,5 +4,7 @@
         <?php include 'services.php' ?>
         <?php include 'designers.php' ?>
         <?php include 'packages.php' ?>
+        <?php include 'contact.php' ?>
+        <?php include 'footer.php' ?>
     </div>
 </div>

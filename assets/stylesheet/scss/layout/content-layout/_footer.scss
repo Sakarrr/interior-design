@@ -1,0 +1,13 @@
+.interior-footer {
+  padding: 48px 58px;
+  text-align: right;
+  background-color: #f1f1f1;
+
+  a {
+    color: #000;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

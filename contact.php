@@ -1,17 +1,27 @@
-<div class="int-contact">
-    <h2>Contact.</h2>
-    <p>
-        Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!
-    </p>
-    <div class="contact-form">
-        <form>
-            <label>Name</label>
-            <input type="text">
-            <label>Email</label>
-            <input type="text">
-            <label>Message</label>
-            <input type="text">
-            <input type="submit" value="Send Message">
-        </form>
+<div class="interior-contact">
+    <div class="container">
+        <div class="row">
+            <h2>Contact.</h2>
+            <p>
+                Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!
+            </p>
+            <div class="contact-form">
+                <form>
+                    <div class="name-container">
+                        <label>Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="email-container">
+                        <label>Email</label>
+                        <input type="text">
+                    </div>
+                    <div class="message-container">
+                        <label>Message</label>
+                        <input type="text">
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
