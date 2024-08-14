@@ -18,7 +18,10 @@
     <?php include 'sidebar.php'; ?>
     <div class="overlay" id="overlay"></div>
     <?php include 'content.php'; ?>
+
+
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/fslightbox.js"></script>
 </body>
 
 </html>
