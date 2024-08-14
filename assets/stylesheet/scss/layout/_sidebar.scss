@@ -8,11 +8,10 @@
     width: 100%;
     background-color: $color__primary;
     color: #fff;
+    padding: 8px 0;
 
     .row {
-      display: flex;
       align-items: center;
-      padding: 8px 16px;
 
       .interior-sidebar-toggle,
       .interior-branding {
@@ -21,7 +20,7 @@
 
       .interior-sidebar-toggle {
         padding: 8px 16px;
-        margin-right: 16px;
+        margin: 0 16px;
       }
     }
   }

@@ -19,36 +19,39 @@
         <p><b>Our designers are thoughtfully chosen:</b></p>
 
         <div class="interior-designers-list">
-            <div class="interior-designer-card">
-                <img src="https://www.w3schools.com/w3images/team2.jpg">
-                <div class="card-content">
-                    <h3>John Doe</h3>
-                    <span>CEO & Founder</span>
-                    <p>
-                        Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                    </p>
+            <div class="row">
+                <div class="interior-designer-card">
+                    <img src="https://www.w3schools.com/w3images/team2.jpg">
+                    <div class="card-content">
+                        <h3>John Doe</h3>
+                        <span>CEO & Founder</span>
+                        <p>
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                        </p>
+                    </div>
+                </div>
+                <div class="interior-designer-card">
+                    <img src="https://www.w3schools.com/w3images/team1.jpg">
+                    <div class="card-content">
+                        <h3>Jane Doe</h3>
+                        <span>Designer</span>
+                        <p>
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                        </p>
+                    </div>
+                </div>
+                <div class="interior-designer-card">
+                    <img src="https://www.w3schools.com/w3images/team3.jpg">
+                    <div class="card-content">
+                        <h3>Mike Ross</h3>
+                        <span>Architect</span>
+                        <p>
+                            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="interior-designer-card">
-                <img src="https://www.w3schools.com/w3images/team1.jpg">
-                <div class="card-content">
-                    <h3>Jane Doe</h3>
-                    <span>Designer</span>
-                    <p>
-                        Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                    </p>
-                </div>
-            </div>
-            <div class="interior-designer-card">
-                <img src="https://www.w3schools.com/w3images/team3.jpg">
-                <div class="card-content">
-                    <h3>Mike Ross</h3>
-                    <span>Architect</span>
-                    <p>
-                        Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                    </p>
-                </div>
-            </div>
+
         </div>
     </div>
 </div>
