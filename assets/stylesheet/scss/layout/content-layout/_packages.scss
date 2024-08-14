@@ -53,6 +53,8 @@
           &:hover {
             color: #fff;
             background-color: #000;
+            transform: scale(1.2);
+            transition: all 0.4s ease-in-out;
           }
         }
 
