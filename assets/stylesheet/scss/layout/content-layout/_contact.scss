@@ -22,8 +22,10 @@
       border: unset;
 
       &:hover {
+        cursor: pointer;
         color: #fff;
         background-color: #ccc;
+        transition: all 0.4s ease-in-out;
       }
     }
   }
