@@ -4,6 +4,8 @@
 
 @import "./responsive/responsive";
 
+@import "./grid-view";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -41,10 +43,6 @@ img {
   margin: 80px 60px 120px 60px;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
 .id-container {
   padding: 0 30px;
 }

@@ -1,0 +1,32 @@
+.grid-view {
+  .interior-showcase-photogrid {
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      .photo {
+        padding: 10px;
+      }
+    }
+  }
+
+  .interior-designers-list {
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      .interior-designer-card {
+        padding: 0 10px;
+      }
+    }
+  }
+
+  .packages-list.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .package-list {
+      padding: 10px;
+    }
+  }
+}
