@@ -35,6 +35,9 @@
   .interior-showcase {
     .interior-showcase-photogrid {
       grid-template-columns: 1fr;
+      grid-template-areas:
+        "left"
+        "right";
     }
   }
 

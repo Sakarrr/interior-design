@@ -1,6 +1,10 @@
 .interior-designers {
-  p {
-    margin: 16px 0;
+  .container {
+    .row {
+      > p {
+        margin: 16px 0;
+      }
+    }
   }
 
   .interior-designers-list {
