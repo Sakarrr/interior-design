@@ -14,3 +14,12 @@ body {
   display: flex;
   font-family: $base_typography;
 }
+
+img {
+  vertical-align: middle;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
