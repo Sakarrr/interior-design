@@ -74,6 +74,8 @@
         cursor: pointer;
         color: #000;
         background: #fff;
+        transform: scale(1.1);
+        transition: all 0.4s ease-in-out;
       }
     }
   }
