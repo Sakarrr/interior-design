@@ -6,7 +6,10 @@
     ?>
     <?php include './sections/services.php' ?>
     <?php echo services(); ?>
-    <?php include './sections/designers.php' ?>
+    <?php
+    include './sections/designers.php';
+    echo designers('grid grid-cols-3', '');
+    ?>
     <?php include './sections/packages.php' ?>
     <?php include './sections/contact.php' ?>
     <?php include './sections/footer.php' ?>
