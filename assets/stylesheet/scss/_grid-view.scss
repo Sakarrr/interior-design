@@ -9,7 +9,7 @@
   .interior-showcase-photogrid {
     .row {
       display: grid;
-      grid-template-columns: 2fr 2fr;
+      grid-template-columns: 1fr 1fr;
 
       .photo {
         padding: 10px;
@@ -20,7 +20,7 @@
   .interior-designers-list {
     .row {
       display: grid;
-      grid-template-columns: 2fr 2fr 2fr;
+      grid-template-columns: 1fr 1fr 1fr;
 
       .interior-designer-card {
         padding: 10px;
@@ -30,7 +30,7 @@
 
   .packages-list.row {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
 
     .package-list {
       padding: 10px;
