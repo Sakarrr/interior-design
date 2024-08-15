@@ -6,17 +6,6 @@
     }
   }
 
-  .interior-showcase-photogrid {
-    .row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-
-      .photo {
-        padding: 10px;
-      }
-    }
-  }
-
   .interior-designers-list {
     .row {
       display: grid;
@@ -38,13 +27,6 @@
   }
 
   @media screen and (max-width: $break_point_mobile) {
-    .interior-showcase-photogrid,
-    .interior-designers-list {
-      .row {
-        grid-template-columns: 2fr;
-      }
-    }
-
     .packages-list.row {
       grid-template-columns: 2fr;
     }

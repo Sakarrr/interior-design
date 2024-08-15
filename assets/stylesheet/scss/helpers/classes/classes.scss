@@ -1,37 +1,55 @@
-.flex-box {
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -10px;
-  }
+/* FlexBox classes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
 
-  .col {
-    padding: 10px;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
+.col {
+  padding: 10px;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
 
-  .col-4 {
+.col-4 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-lg-4 {
+  @media screen and (min-width: 1024px) {
     flex: 0 0 33.33%;
     max-width: 33.33%;
   }
+}
 
-  .col-6 {
+.col-lg-6 {
+  @media screen and (min-width: 1024px) {
     flex: 0 0 50%;
     max-width: 50%;
   }
+}
 
-  .col-lg-4 {
-    @media screen and (min-width: 1024px) {
-      flex: 0 0 33.33%;
-      max-width: 33.33%;
-    }
+/* Grid classes */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.grid-cols-2 {
+  @media screen and (min-width: $break_point_mobile) {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
-  .col-lg-6 {
-    @media screen and (min-width: 1024px) {
-      flex: 0 0 50%;
-      max-width: 50%;
-    }
+.grid-cols-3 {
+  @media screen and (min-width: $break_point_mobile) {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
