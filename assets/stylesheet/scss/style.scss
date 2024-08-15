@@ -11,3 +11,24 @@
 @import "./responsive/responsive";
 
 @import "./utils/utilities";
+
+.interior-scroll-to-top {
+  display: none;
+  position: fixed;
+  cursor: pointer;
+  right: 40px;
+  bottom: 40px;
+  height: 64px;
+  width: 64px;
+  background-color: $color__primary;
+
+  .scroll-to-top-icon {
+    margin-top: 16px;
+    border: solid #000;
+    border-width: 0 8px 7px 0;
+    padding: 27px 0px 16px 0px;
+    transform: rotate(-135deg);
+    top: 50%;
+    left: 50%;
+  }
+}

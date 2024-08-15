@@ -1,3 +1,4 @@
+// Js to toggle sidebar on mobile view.
 let sidebarToggle = document.querySelector("#interior-sidebar-toggle");
 let sidebarClose = document.querySelector("#interior-sidebar-close");
 let sidebar = document.querySelector(".interior-sidebar");
@@ -27,3 +28,27 @@ document.addEventListener("click", (event) => {
     }
   }
 });
+
+// Js to implement smooth scroll to top.
+let scrollToTopBtn = document.querySelector(".interior-scroll-to-top");
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 500 ||
+    document.documentElement.scrollTop > 500
+  ) {
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+}
+
+scrollToTopBtn.addEventListener("click", scrollToTop);
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
