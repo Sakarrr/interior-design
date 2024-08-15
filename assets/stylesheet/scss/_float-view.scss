@@ -61,3 +61,16 @@
     }
   }
 }
+
+.f-row {
+  margin: 0 -10px;
+
+  .f-col {
+    padding: 0 10px;
+    float: left;
+  }
+
+  .f-col-6 {
+    width: 50%;
+  }
+}
