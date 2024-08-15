@@ -13,7 +13,7 @@ function packages($row, $col)
             </p>
             <div class="packages-list">
                 <div class="<?php echo $row ?>">
-                    <div class="package-list <?php $col ?>">
+                    <div class="package-list <?php echo $col ?>">
                         <ul>
                             <li>
                                 Basic
@@ -43,7 +43,7 @@ function packages($row, $col)
                         </ul>
                     </div>
 
-                    <div class="package-list <?php $col ?> pro">
+                    <div class="package-list <?php echo $col ?> pro">
                         <ul>
                             <li class="pro">
                                 Pro

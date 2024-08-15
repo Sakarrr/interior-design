@@ -39,12 +39,12 @@
 
         <?php
         include './sections/designers.php';
-        echo designers('grid grid-cols-3', '');
+        echo designers('row', 'col col-lg-4');
         ?>
 
         <?php
         include './sections/packages.php';
-        echo packages('grid grid-cols-2', '');
+        echo packages('row', 'col col-lg-6');
         ?>
 
         <?php
