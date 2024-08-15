@@ -29,7 +29,7 @@
     <div class="interior-main">
         <?php
         include './sections/showcase.php';
-        echo showcase('f-row', 'f-col f-col-6')
+        echo showcase('grid grid-cols-2', '')
         ?>
 
         <?php
