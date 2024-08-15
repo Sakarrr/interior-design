@@ -23,18 +23,19 @@
         }
       }
 
-      overflow: hidden;
+      a {
+        display: block;
+        overflow: hidden;
+      }
     }
 
     img {
       max-width: 100%;
       aspect-ratio: 1/0.6;
       opacity: 0.8;
-      border-radius: 10px;
 
       &:hover {
         opacity: 1;
-        border-radius: 0;
         transform: scale(1.2);
         transition: all 0.4s ease-in-out;
       }
