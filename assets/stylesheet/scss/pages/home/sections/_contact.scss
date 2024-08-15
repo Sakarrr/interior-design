@@ -29,8 +29,9 @@
 
       &:hover {
         cursor: pointer;
+        box-shadow: inset 2000px 0 0 0 #ccc;
         color: #fff;
-        background-color: #ccc;
+        transform: scale(1);
         transition: all 0.4s ease-in-out;
       }
     }
