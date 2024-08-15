@@ -7,7 +7,7 @@
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat. Duis aute irure
         </p>
-        <div class="row packages-list">
+        <div class="row packages-list clearfix">
             <div class="package-list col col-lg-6">
                 <ul>
                     <li>

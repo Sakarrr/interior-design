@@ -18,8 +18,9 @@
 
 <!-- <body class="flex-box"> -->
 
-<body class="grid-view">
-    <!-- <body class="float"> -->
+<!-- <body class="grid-view"> -->
+
+<body class="float">
 
     <?php include 'sidebar.php'; ?>
     <div class=" overlay" id="overlay">

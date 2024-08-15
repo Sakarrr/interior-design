@@ -19,7 +19,7 @@
         <p><b>Our designers are thoughtfully chosen:</b></p>
 
         <div class="interior-designers-list">
-            <div class="row">
+            <div class="row clearfix">
                 <div class="interior-designer-card col col-lg-4">
                     <img src="https://www.w3schools.com/w3images/team2.jpg">
                     <div class="card-content">

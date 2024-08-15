@@ -1,17 +1,29 @@
 .float {
+  .clearfix {
+    overflow: auto;
+  }
+
+  .interior-navbar {
+    .interior-sidebar-toggle {
+      float: left;
+      width: 15%;
+    }
+
+    .interior-branding {
+      float: left;
+      padding: 8px 0;
+    }
+  }
+
   .interior-showcase-photogrid {
     .photo {
       float: left;
       width: 50%;
       padding: 10px;
 
-      //   &:nth-child(odd) {
-      //     float: left;
-      //   }
-
-      //   &:nth-child(even) {
-      //     float: right;
-      //   }
+      a {
+        display: block;
+      }
     }
   }
 
@@ -28,6 +40,28 @@
       float: left;
       width: 50%;
       padding: 0 10px;
+    }
+  }
+
+  @media screen and (max-width: $break_point_mobile) {
+    .interior-showcase-photogrid {
+      .photo {
+        width: 100%;
+      }
+    }
+
+    .interior-designers-list {
+      .interior-designer-card {
+        width: 100%;
+        padding: 10px 0;
+      }
+    }
+
+    .interior-packages {
+      .package-list {
+        width: 100%;
+        padding: 10px 0;
+      }
     }
   }
 }
