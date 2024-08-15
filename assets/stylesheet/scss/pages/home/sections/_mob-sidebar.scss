@@ -1,5 +1,33 @@
-/* Interior Sidebar */
-.interior-sidebar {
+/* Interior Mobile Sidebar */
+.interior-mob-navbar {
+  display: none;
+  z-index: 5;
+
+  .container {
+    position: fixed;
+    width: 100%;
+    background-color: $color__primary;
+    color: #fff;
+    padding: 8px 0;
+
+    .row {
+      align-items: center;
+
+      .interior-sidebar-toggle,
+      .interior-branding {
+        font-size: 24px;
+      }
+
+      .interior-sidebar-toggle {
+        padding: 8px 16px;
+        margin: 0 16px;
+      }
+    }
+  }
+}
+
+.interior-mob-sidebar {
+  display: none;
   position: fixed;
   font-weight: 500;
   color: #fff;
@@ -22,15 +50,6 @@
       font-size: 22px;
       padding: 8px 16px;
     }
-  }
-
-  .interior-sidebar-header {
-    font-size: 24px;
-    max-width: 30px;
-    margin: 100px 10px 80px 10px;
-    -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
-      both;
-    animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   }
 
   ul {

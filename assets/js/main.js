@@ -1,7 +1,7 @@
 // Js to toggle sidebar on mobile view.
 let sidebarToggle = document.querySelector("#interior-sidebar-toggle");
 let sidebarClose = document.querySelector("#interior-sidebar-close");
-let sidebar = document.querySelector(".interior-sidebar");
+let sidebar = document.querySelector(".interior-mob-sidebar");
 let overlay = document.querySelector("#overlay");
 
 sidebarToggle.addEventListener("click", () => {

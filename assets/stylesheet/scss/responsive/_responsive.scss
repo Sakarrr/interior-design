@@ -4,7 +4,7 @@
     padding: 0 16px;
   }
 
-  .interior-navbar {
+  .interior-mob-navbar {
     .container {
       margin: 0 !important;
     }
@@ -13,6 +13,22 @@
   }
 
   .interior-sidebar {
+    display: none;
+
+    .container {
+      margin: 0 !important;
+    }
+
+    &.open {
+      display: block;
+    }
+
+    .interior-sidebar-close {
+      display: flex;
+    }
+  }
+
+  .interior-mob-sidebar {
     display: none;
 
     .container {

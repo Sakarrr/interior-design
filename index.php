@@ -23,6 +23,11 @@
     echo sidebar();
     ?>
 
+    <?php
+    include 'mobile-sidebar.php';
+    echo mobile_sidebar();
+    ?>
+
     <div class="overlay" id="overlay">
     </div>
 

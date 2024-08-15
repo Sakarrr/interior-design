@@ -21,6 +21,12 @@
     include 'sidebar.php';
     echo sidebar();
     ?>
+
+    <?php
+    include 'mobile-sidebar.php';
+    echo mobile_sidebar();
+    ?>
+
     <div class="overlay" id="overlay"></div>
     <div class="interior-main">
         <?php
