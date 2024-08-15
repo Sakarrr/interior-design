@@ -26,7 +26,7 @@ function showcase($row, $col)
                         <a data-fslightbox href="https://images.pexels.com/photos/27000784/pexels-photo-27000784/free-photo-of-three-men-are-pulling-a-net-on-the-beach.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="https://images.pexels.com/photos/27000784/pexels-photo-27000784/free-photo-of-three-men-are-pulling-a-net-on-the-beach.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img></a>
                     </div>
                     <div class="photo <?php echo $col ?>">
-                        <a data-fslightbox href="https://images.pexels.com/photos/18964530/pexels-photo-18964530/free-photo-of-table-and-two-chairs-standing-on-a-balcony-in-saigon-vietnam.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="https://images.pexels.com/photos/18964530/pexels-photo-18964530/free-photo-of-table-and-two-chairs-standing-on-a-balcony-in-saigon-vietnam.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img></a>
+                        <a data-fslightbox href="https://images.pexels.com/photos/18964530/pexels-photo-18964530/free-photo-of-table-and-two-chairs-standing-on-a-balcony-in-saigon-vietnam.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="https://images.pexels.com/photos/18964530/pexels-photo-18964530/free-photo-of-table-and-two-chairs-standing-on-a-balcony-in-saigon-vietnam.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 "></img></a>
                     </div>
 
                 </div>

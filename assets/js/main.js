@@ -49,3 +49,14 @@ scrollToTopBtn.addEventListener("click", scrollToTop);
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
+
+// Clone and append menu items.
+let primaryMenu = document.querySelector(".primary-menu");
+let mobileMenuContainer = document.querySelector(".mobile-menu");
+let navBarContainer = document.querySelector(".nav-menu");
+
+let primaryMenuItems = primaryMenu.querySelectorAll("li");
+
+primaryMenuItems.forEach(function (menuItem) {
+  mobileMenuContainer.appendChild(menuItem.cloneNode(true));
+});

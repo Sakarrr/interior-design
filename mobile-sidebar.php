@@ -21,13 +21,8 @@ function mobile_sidebar()
                 <span>Close Menu</span>
             </div>
             <div class="interior-sidebar-menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#interior-showcase">Showcase</a></li>
-                    <li><a href="#interior-services">Services</a></li>
-                    <li><a href="#interior-designers">Designers</a></li>
-                    <li><a href="#interior-packages">Packages</a></li>
-                    <li><a href="#interior-contact">Contact</a></li>
+                <ul class="mobile-menu">
+                   
                 </ul>
             </div>
         </div>

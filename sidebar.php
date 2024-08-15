@@ -7,7 +7,7 @@
                 <b>Company Name</b>
             </div>
             <div class="interior-sidebar-menu">
-                <ul>
+                <ul class="primary-menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#interior-showcase">Showcase</a></li>
                     <li><a href="#interior-services">Services</a></li>
