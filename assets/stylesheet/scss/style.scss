@@ -15,19 +15,22 @@
 .interior-scroll-to-top {
   display: none;
   position: fixed;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   right: 40px;
   bottom: 40px;
   height: 64px;
   width: 64px;
-  padding: 24px 15px;
   background-color: $color__primary;
 
   .scroll-to-top-icon {
+    position: relative;
+    top: 6px;
     border: solid #000;
-    border-width: 0px 8px 8px 0px;
-    width: 32px;
-    height: 32px;
+    border-width: 0px 2px 2px 0px;
+    width: 20px;
+    height: 20px;
     transform: rotate(-135deg);
   }
 }
