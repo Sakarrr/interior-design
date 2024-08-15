@@ -8,6 +8,12 @@
   }
 
   .interior-showcase-photogrid {
+    .row {
+      .photo {
+        margin-top: 10px;
+      }
+    }
+
     .photo {
       &:nth-child(1),
       &:nth-child(2) {

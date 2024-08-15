@@ -9,6 +9,11 @@
       width: 100%;
       height: 42px;
       border: 1px solid #ccc;
+
+      &:focus-visible {
+        outline: 3px solid #9999ff;
+        padding: 4px;
+      }
     }
 
     button {
