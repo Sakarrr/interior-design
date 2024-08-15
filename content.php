@@ -27,5 +27,6 @@
 
     <?php
     include './sections/footer.php';
+    echo footer();
     ?>
 </div>
