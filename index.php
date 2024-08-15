@@ -25,7 +25,7 @@
 
     <div class=" overlay" id="overlay">
     </div>
-    
+
     <?php include 'content.php'; ?>
 
 

@@ -2,7 +2,6 @@
     <?php
     include './sections/showcase.php';
     echo showcase('row', 'col col-lg-6');
-    //echo showcase('grid grid-cols-2', '');
     ?>
 
     <?php
