@@ -5,19 +5,4 @@
       grid-template-columns: 1fr 3fr;
     }
   }
-
-  .packages-list.row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    .package-list {
-      padding: 10px;
-    }
-  }
-
-  @media screen and (max-width: $break_point_mobile) {
-    .packages-list.row {
-      grid-template-columns: 2fr;
-    }
-  }
 }
