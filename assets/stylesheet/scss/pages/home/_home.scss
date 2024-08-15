@@ -1,3 +1,4 @@
+@import "./sections/navbar";
 @import "./sections/showcase";
 @import "./sections/services";
 @import "./sections/designers";
@@ -8,7 +9,7 @@
 @import "./sections/mob-sidebar";
 
 .interior-main {
-  width: 100%;
+  width: calc(100% - 300px);
   margin-left: 300px;
 
   h2 {

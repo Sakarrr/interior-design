@@ -17,9 +17,9 @@
 <div class="initial-overlay"></div>
 
 <body>
-    <?php
-    include 'sidebar.php';
-    echo sidebar();
+    <?php 
+    include 'navbar.php';
+    echo navbar();
     ?>
 
     <?php

@@ -1,14 +1,15 @@
 /* Interior Mobile Sidebar */
 .interior-mob-navbar {
   display: none;
-  z-index: 5;
 
   .container {
     position: fixed;
     width: 100%;
     background-color: $color__primary;
     color: #fff;
+    top: 0;
     padding: 8px 0;
+    z-index: 5;
 
     .row {
       align-items: center;
@@ -29,13 +30,14 @@
 .interior-mob-sidebar {
   display: none;
   position: fixed;
+  top: 0;
   font-weight: 500;
   color: #fff;
   background-color: $color__primary;
   width: 300px;
   height: 100%;
   overflow: auto;
-  z-index: 6;
+  z-index: 10;
 
   .container {
     padding: 8px 16px;

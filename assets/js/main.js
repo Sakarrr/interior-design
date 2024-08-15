@@ -37,7 +37,7 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (document.documentElement.scrollTop > 500) {
+  if (document.documentElement.scrollTop > 250) {
     scrollToTopBtn.style.display = "flex";
   } else {
     scrollToTopBtn.style.display = "none";

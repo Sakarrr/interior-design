@@ -1,0 +1,32 @@
+.interior-navbar {
+  width: 100%;
+  color: #fff;
+  background-color: $color__primary;
+
+  .container {
+    margin-top: 0;
+    padding: 32px;
+
+    .row {
+      align-items: center;
+
+      ul {
+        list-style-type: none;
+        margin-left: 20px;
+
+        li {
+          padding: 0 10px;
+
+          a {
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+    }
+  }
+}
