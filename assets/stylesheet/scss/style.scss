@@ -4,6 +4,8 @@
 
 @import "./layout/layout";
 
+@import "./pages/pages";
+
 @import "./responsive/responsive";
 
 @import "./float-view";
@@ -13,8 +15,6 @@
   margin: 0;
   padding: 0;
 }
-
-
 
 body {
   display: flex;

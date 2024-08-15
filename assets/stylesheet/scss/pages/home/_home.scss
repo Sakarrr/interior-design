@@ -1,0 +1,24 @@
+@import "./sections/showcase";
+@import "./sections/services";
+@import "./sections/designers";
+@import "./sections/packages";
+@import "./sections/contact";
+@import "./sections/footer";
+@import "./sections/sidebar";
+
+.interior-main {
+  width: 100%;
+  margin-left: 300px;
+
+  h2 {
+    position: relative;
+    font-size: 48px;
+    font-weight: 400;
+    color: $color__primary;
+    margin-bottom: 70px;
+
+    &::after {
+      @include header-style;
+    }
+  }
+}

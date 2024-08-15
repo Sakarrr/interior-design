@@ -1,25 +1,3 @@
-@import "./content-layout/showcase";
-@import "./content-layout/services";
-@import "./content-layout/designers";
-@import "./content-layout/packages";
-@import "./content-layout/contact";
-@import "./content-layout/footer";
+@import './flex/flex';
 
-@import "./sidebar";
-
-.interior-main {
-  width: 100%;
-  margin-left: 300px;
-
-  h2 {
-    position: relative;
-    font-size: 48px;
-    font-weight: 400;
-    color: $color__primary;
-    margin-bottom: 70px;
-
-    &::after {
-      @include header-style;
-    }
-  }
-}
+@import './grid/grid';
