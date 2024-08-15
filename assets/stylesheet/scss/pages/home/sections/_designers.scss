@@ -6,6 +6,13 @@
   }
 
   .interior-designers-list {
+    .row,
+    .f-row {
+      .interior-designer-card {
+        margin-top: 10px;
+      }
+    }
+
     img {
       max-width: 100%;
       filter: grayscale(75%);

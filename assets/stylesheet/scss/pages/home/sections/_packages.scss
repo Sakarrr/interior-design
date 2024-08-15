@@ -3,6 +3,13 @@
     margin: 16px 0;
   }
 
+  .row,
+  .f-row {
+    .package-list {
+      margin-top: 10px;
+    }
+  }
+
   .packages-list {
     ul {
       list-style-type: none;

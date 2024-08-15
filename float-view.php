@@ -16,9 +16,11 @@
 
 <div class="initial-overlay"></div>
 
-<body class="grid-view">
-
-    <?php include 'sidebar.php'; ?>
+<body>
+    <?php
+    include 'sidebar.php';
+    echo sidebar();
+    ?>
     <div class="overlay" id="overlay"></div>
     <div class="interior-main">
         <?php
@@ -33,12 +35,12 @@
 
         <?php
         include './sections/designers.php';
-        echo designers('grid grid-cols-3', '');
+        echo designers('f-row', 'f-col f-col-4');
         ?>
 
         <?php
         include './sections/packages.php';
-        echo packages('grid grid-cols-2', '');
+        echo packages('f-row', 'f-col f-col-6');
         ?>
 
         <?php
