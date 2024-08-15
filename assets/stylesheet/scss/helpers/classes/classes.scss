@@ -11,16 +11,6 @@
   max-width: 100%;
 }
 
-.col-4 {
-  flex: 0 0 33.33%;
-  max-width: 33.33%;
-}
-
-.col-6 {
-  flex: 0 0 50%;
-  max-width: 50%;
-}
-
 .col-lg-4 {
   @media screen and (min-width: 1024px) {
     flex: 0 0 33.33%;
