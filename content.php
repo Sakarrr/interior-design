@@ -22,6 +22,7 @@
 
     <?php
     include './sections/contact.php';
+    echo contact();
     ?>
 
     <?php
