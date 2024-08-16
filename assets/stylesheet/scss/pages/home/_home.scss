@@ -1,12 +1,8 @@
-@import "./sections/navbar";
 @import "./sections/showcase";
 @import "./sections/services";
 @import "./sections/designers";
 @import "./sections/packages";
 @import "./sections/contact";
-@import "./sections/footer";
-@import "./sections/sidebar";
-@import "./sections/mob-sidebar";
 
 .#{$prefix}main {
   max-width: 100%;
