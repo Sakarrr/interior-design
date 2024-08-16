@@ -12,8 +12,8 @@
   transition: all 0.4s;
 
   .container {
-    padding: 40px 8px;
-    margin: 120px 0 0 0;
+    padding: 0 8px;
+    margin: 0;
   }
 
   .#{$prefix}sidebar-close {
@@ -27,8 +27,8 @@
   }
 
   .#{$prefix}sidebar-header {
-    display: none;
-    font-size: 24px;
+    visibility: hidden;
+    font-size: 32px;
     max-width: 30px;
     margin: 100px 10px 80px 10px;
     -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
@@ -41,7 +41,6 @@
 
     li {
       font-size: 24px;
-      margin-bottom: 20px;
 
       a {
         display: flex;
@@ -76,14 +75,11 @@
     }
 
     .#{$prefix}sidebar-header {
-      display: block;
+      visibility: visible;
     }
 
     ul {
       li {
-        font-size: 18px;
-        margin-bottom: 0;
-
         a {
           span {
             display: block;

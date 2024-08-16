@@ -20,6 +20,10 @@
     display: block;
   }
 
+  .open-sidebar {
+    display: none;
+  }
+
   .#{$prefix}sidebar {
     display: none;
 
