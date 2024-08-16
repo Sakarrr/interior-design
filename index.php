@@ -42,6 +42,11 @@
     </div>
 
     <div class="interior-main">
+        <div class="open-sidebar" id="open-sidebar">
+            <div class="container">
+                <ion-icon size="large" name="arrow-forward"></ion-icon>
+            </div>
+        </div>
         <?php
         include './sections/showcase.php';
         echo showcase('row', 'col col-lg-6')

@@ -71,3 +71,10 @@ let primaryMenuItems = primaryMenu.querySelectorAll("li");
 primaryMenuItems.forEach(function (menuItem) {
   mobileMenuContainer.appendChild(menuItem.cloneNode(true));
 });
+
+let sidebarOpenBtn = document.querySelector(".open-sidebar");
+
+sidebarOpenBtn.addEventListener("click", function () {
+  document.querySelector(".interior-sidebar").classList.toggle("sidebar-open");
+  document.querySelector(".open-sidebar").classList.toggle("close-sidebar");
+});
