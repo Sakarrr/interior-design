@@ -10,6 +10,10 @@
     .f-row {
       .#{$prefix}designer-card {
         margin-top: 10px;
+
+        @media screen and (max-width: $break_point_mobile) {
+          flex-basis: 100%;
+        }
       }
     }
 

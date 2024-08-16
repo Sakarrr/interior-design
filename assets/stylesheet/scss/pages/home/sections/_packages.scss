@@ -11,6 +11,10 @@
   }
 
   .packages-list {
+    @media screen and (max-width: $break_point_mobile) {
+
+    }
+    
     ul {
       list-style-type: none;
       text-align: center;
