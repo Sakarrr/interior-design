@@ -1,5 +1,5 @@
 /* Interior Mobile Sidebar */
-.interior-mob-navbar {
+.#{$prefix}mob-navbar {
   display: none;
 
   .container {
@@ -14,12 +14,12 @@
     .row {
       align-items: center;
 
-      .interior-sidebar-toggle,
-      .interior-branding {
+      .#{$prefix}sidebar-toggle,
+      .#{$prefix}branding {
         font-size: 24px;
       }
 
-      .interior-sidebar-toggle {
+      .#{$prefix}sidebar-toggle {
         padding: 8px 16px;
         margin: 0 16px;
       }
@@ -27,7 +27,7 @@
   }
 }
 
-.interior-mob-sidebar {
+.#{$prefix}mob-sidebar {
   display: none;
   position: fixed;
   top: 0;
@@ -44,7 +44,7 @@
     margin: 0;
   }
 
-  .interior-sidebar-close {
+  .#{$prefix}sidebar-close {
     display: none;
     justify-content: center;
 

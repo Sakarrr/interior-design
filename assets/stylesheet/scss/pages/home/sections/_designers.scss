@@ -1,19 +1,20 @@
-.interior-designers {
+.#{$prefix}designers {
   .container {
     > p {
       margin: 16px 0;
     }
   }
 
-  .interior-designers-list {
+  .#{$prefix}designers-list {
     .row,
     .f-row {
-      .interior-designer-card {
+      .#{$prefix}designer-card {
         margin-top: 10px;
       }
     }
 
     img {
+      width: 100%;
       max-width: 100%;
       filter: grayscale(75%);
     }

@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c456475a-35ad-45b2-a234-e9a8e5a11bda" name="Changes" comment="" />
+    <list default="true" id="c456475a-35ad-45b2-a234-e9a8e5a11bda" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/helpers/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/helpers/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_designers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_designers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_mob-sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_mob-sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_packages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_packages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_showcase.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_showcase.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/responsive/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/responsive/_responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/style.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,26 +28,31 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\laragon\bin\php\php-8.1.10-Win32-vs16-x64\php.exe" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2kb00mlbQuy1Gpu8ed3850Z6eh3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/interior&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -50,6 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1723536755894</updated>
       <workItem from="1723536763055" duration="657000" />
+      <workItem from="1723779379543" duration="97000" />
+      <workItem from="1723779480534" duration="697000" />
     </task>
     <servers />
   </component>

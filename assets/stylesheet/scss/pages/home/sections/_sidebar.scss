@@ -1,5 +1,5 @@
 /* Interior Sidebar */
-.interior-sidebar {
+.#{$prefix}sidebar {
   position: fixed;
   font-weight: 500;
   color: #fff;
@@ -15,7 +15,7 @@
     margin: 0;
   }
 
-  .interior-sidebar-close {
+  .#{$prefix}sidebar-close {
     display: none;
     justify-content: center;
 
@@ -25,7 +25,7 @@
     }
   }
 
-  .interior-sidebar-header {
+  .#{$prefix}sidebar-header {
     font-size: 24px;
     max-width: 30px;
     margin: 100px 10px 80px 10px;

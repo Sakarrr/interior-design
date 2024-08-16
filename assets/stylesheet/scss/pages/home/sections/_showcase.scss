@@ -1,5 +1,5 @@
-.interior-showcase {
-  .interior-heading {
+.#{$prefix}showcase {
+  .#{$prefix}heading {
     font-size: 64px;
     font-weight: 400;
     -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
@@ -7,7 +7,7 @@
     animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   }
 
-  .interior-showcase-photogrid {
+  .#{$prefix}showcase-photogrid {
     .row,
     .f-row {
       .photo {

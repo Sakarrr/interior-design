@@ -4,15 +4,15 @@
     padding: 0 16px;
   }
 
-  .interior-main {
+  .#{$prefix}main {
     width: 100%;
   }
 
-  .interior-navbar {
+  .#{$prefix}navbar {
     display: none;
   }
 
-  .interior-mob-navbar {
+  .#{$prefix}mob-navbar {
     .container {
       margin: 0 !important;
     }
@@ -20,7 +20,7 @@
     display: block;
   }
 
-  .interior-sidebar {
+  .#{$prefix}sidebar {
     display: none;
 
     .container {
@@ -31,12 +31,12 @@
       display: block;
     }
 
-    .interior-sidebar-close {
+    .#{$prefix}sidebar-close {
       display: flex;
     }
   }
 
-  .interior-mob-sidebar {
+  .#{$prefix}mob-sidebar {
     display: none;
 
     .container {
@@ -47,7 +47,7 @@
       display: block;
     }
 
-    .interior-sidebar-close {
+    .#{$prefix}sidebar-close {
       display: flex;
     }
   }
@@ -58,13 +58,13 @@
     }
   }
 
-  .interior-main {
+  .#{$prefix}main {
     margin: 0;
   }
 }
 
 @media screen and (max-width: $break_point_mobile) {
-  .interior-showcase-photogrid {
+  .#{$prefix}showcase-photogrid {
     .row {
       .photo {
         flex-basis: 100% !important;
@@ -84,15 +84,15 @@
     }
   }
 
-  .interior-designers {
-    .interior-designers-list {
-      .interior-designer-card {
+  .#{$prefix}designers {
+    .#{$prefix}designers-list {
+      .#{$prefix}designer-card {
         flex-basis: 100%;
       }
     }
   }
 
-  .interior-packages {
+  .#{$prefix}packages {
     .packages-list {
       flex-direction: column;
     }

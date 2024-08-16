@@ -12,7 +12,7 @@
 
 @import "./utils/utilities";
 
-.interior-scroll-to-top {
+.#{$prefix}scroll-to-top {
   display: none;
   position: fixed;
   justify-content: center;
