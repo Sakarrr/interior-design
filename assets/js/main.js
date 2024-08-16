@@ -76,5 +76,6 @@ let sidebarOpenBtn = document.querySelector(".open-sidebar");
 
 sidebarOpenBtn.addEventListener("click", function () {
   document.querySelector(".interior-sidebar").classList.toggle("sidebar-open");
+  document.querySelector(".interior-main").classList.toggle("sidebar-open");
   document.querySelector(".open-sidebar").classList.toggle("close-sidebar");
 });
