@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c456475a-35ad-45b2-a234-e9a8e5a11bda" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/helpers/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/helpers/_helpers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_designers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_designers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_mob-sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_mob-sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_packages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_packages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_showcase.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_showcase.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheet/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/pages/home/sections/_sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/responsive/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/responsive/_responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheet/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grid-view.php" beforeDir="false" afterPath="$PROJECT_DIR$/grid-view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +61,7 @@
       <updated>1723536755894</updated>
       <workItem from="1723536763055" duration="657000" />
       <workItem from="1723779379543" duration="97000" />
-      <workItem from="1723779480534" duration="697000" />
+      <workItem from="1723779480534" duration="1294000" />
     </task>
     <servers />
   </component>
