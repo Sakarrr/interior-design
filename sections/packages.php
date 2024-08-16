@@ -68,7 +68,7 @@ function packages($row, $col)
                                 <span>per room</span>
                             </li>
                             <li>
-                                <a href="#" class="button pro">Sign up</a>
+                                <a href="#" class="button btn-bg-primary">Sign up</a>
                             </li>
                         </ul>
                     </div>
