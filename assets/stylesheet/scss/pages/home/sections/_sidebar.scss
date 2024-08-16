@@ -41,7 +41,9 @@
       font-size: 18px;
 
       a {
-        display: block;
+        display: flex;
+        align-items: center;
+        gap: 10px;
         text-decoration: none;
         color: inherit;
         padding: 10px;
