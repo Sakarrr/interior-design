@@ -16,7 +16,7 @@
 
 <div class="initial-overlay"></div>
 
-<body>
+<body class="container-center">
     <?php 
     include 'navbar.php';
     echo navbar();

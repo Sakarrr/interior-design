@@ -9,7 +9,7 @@
 @import "./sections/mob-sidebar";
 
 .interior-main {
-  width: calc(100% - 300px);
+  max-width: 2200px;
   margin-left: 300px;
 
   h2 {
@@ -22,5 +22,12 @@
     &::after {
       @include header-style;
     }
+  }
+}
+
+.container-center {
+  .interior-main {
+    width: 1800px;
+    margin: auto;
   }
 }
