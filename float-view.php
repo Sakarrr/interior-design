@@ -17,7 +17,7 @@
 <div class="initial-overlay"></div>
 
 <body class="container-center">
-    <?php 
+    <?php
     include 'navbar.php';
     echo navbar();
     ?>
@@ -53,12 +53,12 @@
         include './sections/contact.php';
         echo contact();
         ?>
-
-        <?php
-        include './sections/footer.php';
-        echo footer();
-        ?>
     </div>
+
+    <?php
+    include './sections/footer.php';
+    echo footer();
+    ?>
 
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/fslightbox.js"></script>
