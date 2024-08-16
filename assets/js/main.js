@@ -1,3 +1,14 @@
+// Add loader.
+document.onreadystatechange = function () {
+  if (document.readyState !== "complete") {
+    document.querySelector("body").style.visibility = "hidden";
+    document.querySelector(".loader-container").style.visibility = "visible";
+  } else {
+    document.querySelector(".loader-container").style.visibility = "hidden";
+    document.querySelector("body").style.visibility = "visible";
+  }
+};
+
 // Js to toggle sidebar on mobile view.
 let sidebarToggle = document.querySelector("#interior-sidebar-toggle");
 let sidebarClose = document.querySelector("#interior-sidebar-close");
