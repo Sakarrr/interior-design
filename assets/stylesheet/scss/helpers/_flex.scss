@@ -1,0 +1,25 @@
+/* FlexBox classes */
+.row {
+    @include row;
+  }
+  
+  .col {
+    padding: 0 10px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .col-lg-4 {
+    @media screen and (min-width: $break_point_mobile) {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }
+  
+  .col-lg-6 {
+    @media screen and (min-width: $break_point_mobile) {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
