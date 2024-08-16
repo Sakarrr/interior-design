@@ -7,7 +7,7 @@ function footer()
     </div>
 
     <a class="interior-scroll-to-top">
-        <div class="scroll-to-top-icon"></div>
+        <div class="interior-chevron"></div>
     </a>
 <?php
 }

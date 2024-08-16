@@ -7,7 +7,7 @@
   top: 0;
   width: 60px;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
   z-index: 6;
   transition: all 0.4s;
 
@@ -68,6 +68,7 @@
   &.sidebar-open {
     width: 300px;
     transition: all 0.4s;
+    overflow: auto;
 
     .container {
       margin: 0;
@@ -93,24 +94,25 @@
 .open-sidebar {
   .container {
     margin: 20px 60px;
-
-    ion-icon {
-      background-color: $color__primary;
-      color: #fff;
-      padding: 10px;
-      border-radius: 50%;
-      transition: all 0.4s;
-
-      &:hover {
-        cursor: pointer;
-      }
-    }
   }
 }
 
 .close-sidebar {
-  ion-icon {
+  .#{$prefix}arrow {
     transition: all 0.4s;
     transform: rotate(180deg);
+  }
+}
+
+.sidebar-toggle {
+  display: inline-flex;
+  background-color: $color__primary;
+  padding: 20px;
+  border-radius: 50%;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: inset 60px 0 0 0 #000;
+    transition: all 0.4s ease-in-out;
   }
 }

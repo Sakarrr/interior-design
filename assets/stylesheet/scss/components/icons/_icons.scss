@@ -1,0 +1,31 @@
+.#{$prefix}arrow {
+  display: inline-block;
+  position: relative;
+  transition: all 0.4s;
+
+  .line {
+    position: absolute;
+    top: 8.5px;
+    left: -6px;
+    border-bottom: 2px solid #fff;
+    width: 28px;
+  }
+
+  .chevron {
+    border: solid #fff;
+    border-width: 2px 2px 0 0;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+  }
+}
+
+.#{$prefix}chevron {
+  position: relative;
+  top: 6px;
+  border: solid #fff;
+  border-width: 0px 2px 2px 0px;
+  width: 20px;
+  height: 20px;
+  transform: rotate(-135deg);
+}

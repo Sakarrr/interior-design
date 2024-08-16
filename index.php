@@ -44,7 +44,12 @@
     <div class="interior-main">
         <div class="open-sidebar" id="open-sidebar">
             <div class="container">
-                <ion-icon size="large" name="arrow-forward"></ion-icon>
+                <a class="sidebar-toggle">
+                    <div class="interior-arrow">
+                        <div class="line"></div>
+                        <div class="chevron"></div>
+                    </div>
+                </a>
             </div>
         </div>
         <?php
