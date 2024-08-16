@@ -14,3 +14,13 @@
   flex-wrap: wrap;
   margin: 0 -10px;
 }
+
+@mixin btnHover($dir, $x: 0, $y: 0, $color, $scale) {
+  &:hover {
+    cursor: pointer;
+    box-shadow: $dir $x $y 0 0 $color;
+    color: #fff;
+    transform: scale($scale);
+    transition: all 0.4s ease-in-out;
+  }
+}

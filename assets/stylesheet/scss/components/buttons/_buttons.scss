@@ -8,12 +8,24 @@
   &.btn-bg-primary {
     color: #fff;
     background-color: $color__primary;
+
+    &.btn-fluid {
+      width: 100%;
+    }
   }
 
-  &:hover {
-    color: #fff;
-    box-shadow: inset 400px 0 0 0 #000;
-    transform: scale(1.2);
-    transition: all 0.4s ease-in-out;
-  }
+  @include btnHover(inset, 400px, 0, #000, 1.2);
+}
+
+button {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: $color__primary;
+  width: 100%;
+  padding: 10px 0;
+  border: unset;
+
+  @include btnHover(inset, 2000px, 0, #000, 1);
 }
