@@ -11,14 +11,26 @@
   z-index: 6;
   transition: all 0.4s;
 
+  @media screen and (max-width: $break_point_tablet) {
+    display: none;
+  }
+
   .container {
     padding: 0 8px;
     margin: 0;
+
+    @media screen and (max-width: $break_point_tablet) {
+      margin: 0 !important;
+    }
   }
 
   .#{$prefix}sidebar-close {
     display: none;
     justify-content: center;
+
+    @media screen and (max-width: $break_point_tablet) {
+      display: flex;
+    }
 
     span {
       font-size: 22px;
@@ -92,6 +104,10 @@
 }
 
 .open-sidebar {
+  @media screen and (max-width: $break_point_tablet) {
+    display: none;
+  }
+
   .container {
     margin: 20px 60px;
   }

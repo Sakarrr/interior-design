@@ -7,6 +7,12 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 6;
 
+  @media screen and (max-width: $break_point_tablet) {
+    &.open {
+      display: block;
+    }
+  }
+
   &.main {
     display: block;
     animation: slideDown 1s forwards;

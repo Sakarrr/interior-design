@@ -3,6 +3,10 @@
   color: #fff;
   background-color: $color__primary;
 
+  @media screen and (max-width: $break_point_tablet) {
+    display: none;
+  }
+
   .container {
     margin-top: 0;
     padding: 32px;
