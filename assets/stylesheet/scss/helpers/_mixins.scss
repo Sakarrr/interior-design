@@ -24,3 +24,21 @@
     transition: all 0.4s ease-in-out;
   }
 }
+
+@mixin breakpoints($breakpoint) {
+  @if $breakpoint == "mobile" {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+  @if $breakpoint == "tablet" {
+    @media (max-width: 992px) {
+      @content;
+    }
+  }
+  @if $breakpoint == "desktop" {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+}

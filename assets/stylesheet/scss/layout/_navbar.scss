@@ -3,7 +3,11 @@
   color: #fff;
   background-color: $color__primary;
 
-  @media screen and (max-width: $break_point_tablet) {
+  // @media screen and (max-width: $break_point_tablet) {
+  //   display: none;
+  // }
+
+  @include breakpoints("tablet") {
     display: none;
   }
 
