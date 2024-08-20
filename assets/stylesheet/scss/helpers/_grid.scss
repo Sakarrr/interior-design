@@ -6,13 +6,13 @@
   }
   
   .grid-cols-2 {
-    @media screen and (min-width: $break_point_mobile) {
+    @include breakpoints("desktop") {
       grid-template-columns: repeat(2, 1fr);
     }
   }
   
   .grid-cols-3 {
-    @media screen and (min-width: $break_point_mobile) {
+    @include breakpoints("desktop") {
       grid-template-columns: repeat(3, 1fr);
     }
   }

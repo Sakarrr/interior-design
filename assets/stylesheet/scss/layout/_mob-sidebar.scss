@@ -2,7 +2,7 @@
 .#{$prefix}mob-navbar {
   display: none;
 
-  @media screen and (max-width: $break_point_tablet) {
+  @include breakpoints("tablet") {
     display: block;
   }
 
@@ -15,7 +15,7 @@
     padding: 8px 0;
     z-index: 5;
 
-    @media screen and (max-width: $break_point_tablet) {
+    @include breakpoints("tablet") {
       margin: 0 !important;
     }
 
@@ -42,7 +42,7 @@
   overflow: auto;
   z-index: 10;
 
-  @media screen and (max-width: $break_point_tablet) {
+  @include breakpoints("tablet") {
     &.open {
       display: block;
     }
@@ -52,7 +52,7 @@
     padding: 8px 16px;
     margin: 0;
 
-    @media screen and (max-width: $break_point_tablet) {
+    @include breakpoints("tablet") {
       margin: 0 !important;
     }
   }
@@ -61,7 +61,7 @@
     display: none;
     justify-content: center;
 
-    @media screen and (max-width: $break_point_tablet) {
+    @include breakpoints("tablet") {
       display: flex;
     }
 

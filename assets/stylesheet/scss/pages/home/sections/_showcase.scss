@@ -15,7 +15,7 @@
     }
 
     .photo {
-      @media screen and (max-width: $break_point_mobile) {
+      @include breakpoints("mobile") {
         &:nth-child(2) {
           order: 4;
         }

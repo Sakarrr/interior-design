@@ -27,17 +27,17 @@
 
 @mixin breakpoints($breakpoint) {
   @if $breakpoint == "mobile" {
-    @media (max-width: $break_point_mobile) {
+    @media (max-width: $break_point_md) {
       @content;
     }
   }
   @if $breakpoint == "tablet" {
-    @media (max-width: $break_point_tablet) {
+    @media (max-width: $break_point_lg) {
       @content;
     }
   }
   @if $breakpoint == "desktop" {
-    @media (min-width: $break_point_tablet) {
+    @media (min-width: $break_point_lg) {
       @content;
     }
   }

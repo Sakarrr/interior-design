@@ -6,7 +6,7 @@
 .interior-showcase, .interior-services, .interior-designers, .interior-packages, .interior-contact {
   margin: 80px 60px 120px 60px;
 
-  @media screen and (max-width: $break_point_tablet) {
+  @include breakpoints("tablet") {
     margin: 75px 0 !important;
     padding: 0 16px;
   }

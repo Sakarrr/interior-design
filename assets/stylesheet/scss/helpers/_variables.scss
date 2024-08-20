@@ -19,5 +19,9 @@ $font-sizes :("xs":12px, "sm": 14px, "reg":16px, "md":18px, "lg": 20px, "xl" :24
 $prefix: interior-;
 
 //breakpoints
-$break_point_tablet: 992px;
-$break_point_mobile: 600px;
+$break_point_sm: 576px;
+$break_point_md: 768px;
+$break_point_lg: 992px;
+$break_point_xl: 1200px;
+$break_point_xxl: 1400px;
+

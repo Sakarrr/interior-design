@@ -11,7 +11,7 @@
       .#{$prefix}designer-card {
         margin-top: 10px;
 
-        @media screen and (max-width: $break_point_mobile) {
+        @include breakpoints("mobile") {
           flex-basis: 100%;
         }
       }
