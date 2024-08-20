@@ -11,9 +11,9 @@
 
 <div class="loader-container">
     <div class="loader">
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="loader-animation"></div>
+        <div class="loader-animation"></div>
+        <div class="loader-animation"></div>
     </div>
 </div>
 
