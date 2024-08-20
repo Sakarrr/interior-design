@@ -9,16 +9,13 @@
   max-width: 100%;
 }
 
-.col-lg-4 {
-  @include breakpoints("md") {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-  }
-}
+@include breakpoints("md") {
+  @for $i from 1 through 12 {
+    $width: percentage($i/12);
 
-.col-lg-6 {
-  @include breakpoints("md") {
-    flex: 0 0 50%;
-    max-width: 50%;
+    .col-lg-#{$i} {
+      flex: 0 0 $width;
+      width: $width;
+    }
   }
 }
