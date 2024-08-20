@@ -1,13 +1,19 @@
 @mixin keyframes($name) {
   @-webkit-keyframes #{$name} {
-    @content
+    @content;
+  }
+  -moz-keyframes #{$name} {
+    @content;
+  }
+  -ms-keyframes #{$name} {
+    @content;
   }
   @keyframes #{$name} {
-    @content
+    @content;
   }
 }
 
-@include keyframes('fade-text')  {
+@include keyframes("fade-text") {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
@@ -20,7 +26,7 @@
   }
 }
 
-@include keyframes('slide-down')  {
+@include keyframes("slide-down") {
   0% {
     transform: translateY(0);
   }
@@ -29,7 +35,7 @@
   }
 }
 
-@include keyframes(grow-shrink) {
+@include keyframes("grow-shrink") {
   0%,
   100% {
     transform: scale(1);
