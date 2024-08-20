@@ -15,7 +15,7 @@ function packages($row, $col)
                 <div class="<?php echo $row ?>">
                     <div class="package-list <?php echo $col ?>">
                         <ul>
-                            <li>
+                            <li class="it-fs-xl">
                                 Basic
                             </li>
                             <li>
@@ -45,7 +45,7 @@ function packages($row, $col)
 
                     <div class="package-list <?php echo $col ?> pro">
                         <ul>
-                            <li class="pro">
+                            <li class="pro it-fs-xl">
                                 Pro
                             </li>
                             <li>

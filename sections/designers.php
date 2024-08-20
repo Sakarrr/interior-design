@@ -26,7 +26,7 @@
                     <div class="interior-designer-card <?php echo $col ?>">
                         <img src="https://www.w3schools.com/w3images/team2.jpg">
                         <div class="card-content">
-                            <h3>John Doe</h3>
+                            <h3 class="it-fs-xl">John Doe</h3>
                             <span>CEO & Founder</span>
                             <p>
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.

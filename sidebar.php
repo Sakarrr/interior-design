@@ -8,12 +8,12 @@
             </div>
             <div class="interior-sidebar-menu">
                 <ul class="primary-menu">
-                    <li><a href="#"><ion-icon name="home"></ion-icon><span>Home</span> </a></li>
-                    <li><a href="#interior-showcase"><ion-icon name="images"></ion-icon><span>Showcase</span> </a></li>
-                    <li><a href="#interior-services"><ion-icon name="settings"></ion-icon><span>Services</span> </a></li>
-                    <li><a href="#interior-designers"><ion-icon name="brush"></ion-icon><span>Designers</span> </a></li>
-                    <li><a href="#interior-packages"><ion-icon name="cube"></ion-icon><span>Packages</span> </a></li>
-                    <li><a href="#interior-contact"><ion-icon name="call"></ion-icon><span>Contact</span> </a></li>
+                    <li class="it-fs-xl"><a href="#"><ion-icon name="home"></ion-icon><span>Home</span> </a></li>
+                    <li class="it-fs-xl"><a href="#interior-showcase"><ion-icon name="images"></ion-icon><span>Showcase</span> </a></li>
+                    <li class="it-fs-xl"><a href="#interior-services"><ion-icon name="settings"></ion-icon><span>Services</span> </a></li>
+                    <li class="it-fs-xl"><a href="#interior-designers"><ion-icon name="brush"></ion-icon><span>Designers</span> </a></li>
+                    <li class="it-fs-xl"><a href="#interior-packages"><ion-icon name="cube"></ion-icon><span>Packages</span> </a></li>
+                    <li class="it-fs-xl"><a href="#interior-contact"><ion-icon name="call"></ion-icon><span>Contact</span> </a></li>
                 </ul>
             </div>
         </div>
