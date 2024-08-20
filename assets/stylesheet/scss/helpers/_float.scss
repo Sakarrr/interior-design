@@ -11,13 +11,13 @@
   }
 
   .f-col-4 {
-    @include breakpoints("desktop") {
+    @include breakpoints("md") {
       width: 33.33%;
     }
   }
 
   .f-col-6 {
-    @include breakpoints("desktop") {
+    @include breakpoints("md") {
       width: 50%;
     }
   }

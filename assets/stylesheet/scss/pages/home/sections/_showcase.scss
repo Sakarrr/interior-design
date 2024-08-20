@@ -15,18 +15,20 @@
     }
 
     .photo {
-      @include breakpoints("mobile") {
-        &:nth-child(2) {
-          order: 4;
-        }
+      &:nth-child(2) {
+        order: 4;
+      }
 
-        &:nth-child(4) {
-          order: 5;
-        }
+      &:nth-child(4) {
+        order: 5;
+      }
 
-        &:nth-child(6) {
-          order: 6;
-        }
+      &:nth-child(6) {
+        order: 6;
+      }
+
+      @include breakpoints("md") {
+        order: unset !important;
       }
 
       &:nth-child(1),

@@ -1,26 +1,27 @@
 /* Interior Sidebar */
 .#{$prefix}sidebar {
-  position: fixed;
-  font-weight: 500;
-  color: #fff;
-  background-color: $color__primary;
-  top: 0;
-  width: 60px;
-  height: 100%;
-  overflow: hidden;
-  z-index: 6;
-  transition: all 0.4s;
-
-  @include breakpoints("tablet") {
-    display: none;
+  display: none;
+ 
+  @include breakpoints("lg") {
+    display: block;
+    position: fixed;
+    font-weight: 500;
+    color: #fff;
+    background-color: $color__primary;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    overflow: hidden;
+    z-index: 6;
+    transition: all 0.4s;
   }
 
   .container {
-    padding: 0 8px;
-    margin: 0;
+    margin: 0 !important;
 
-    @include breakpoints("tablet") {
-      margin: 0 !important;
+    @include breakpoints("lg") {
+      padding: 0 8px;
+    margin: 0;
     }
   }
 
@@ -28,7 +29,7 @@
     display: none;
     justify-content: center;
 
-    @include breakpoints("tablet") {
+    @include breakpoints("lg") {
       display: flex;
     }
 
@@ -104,8 +105,10 @@
 }
 
 .open-sidebar {
-  @include breakpoints("tablet") {
-    display: none;
+  display: none;
+
+  @include breakpoints("lg") {
+    display: block;
   }
 
     margin: 20px 60px;

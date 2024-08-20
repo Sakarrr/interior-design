@@ -10,14 +10,14 @@
 }
 
 .col-lg-4 {
-  @include breakpoints("desktop") {
+  @include breakpoints("md") {
     flex: 0 0 33.33%;
     max-width: 33.33%;
   }
 }
 
 .col-lg-6 {
-  @include breakpoints("desktop") {
+  @include breakpoints("md") {
     flex: 0 0 50%;
     max-width: 50%;
   }

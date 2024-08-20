@@ -6,13 +6,13 @@
   }
   
   .grid-cols-2 {
-    @include breakpoints("desktop") {
+    @include breakpoints("md") {
       grid-template-columns: repeat(2, 1fr);
     }
   }
   
   .grid-cols-3 {
-    @include breakpoints("desktop") {
+    @include breakpoints("md") {
       grid-template-columns: repeat(3, 1fr);
     }
   }

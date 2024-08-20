@@ -1,9 +1,9 @@
 /* Interior Mobile Sidebar */
 .#{$prefix}mob-navbar {
-  display: none;
+  display: block;
 
-  @include breakpoints("tablet") {
-    display: block;
+  @include breakpoints("lg") {
+    display: none;
   }
 
   .container {
@@ -15,7 +15,7 @@
     padding: 8px 0;
     z-index: 5;
 
-    @include breakpoints("tablet") {
+    @include breakpoints("lg") {
       margin: 0 !important;
     }
 
@@ -42,28 +42,23 @@
   overflow: auto;
   z-index: 10;
 
-  @include breakpoints("tablet") {
-    &.open {
-      display: block;
-    }
+  &.open {
+    display: block;
   }
+  
 
   .container {
     padding: 8px 16px;
     margin: 0;
 
-    @include breakpoints("tablet") {
+    @include breakpoints("lg") {
       margin: 0 !important;
     }
   }
 
   .#{$prefix}sidebar-close {
-    display: none;
+    display: flex;
     justify-content: center;
-
-    @include breakpoints("tablet") {
-      display: flex;
-    }
 
     span {
       font-size: 22px;

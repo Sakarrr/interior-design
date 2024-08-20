@@ -11,7 +11,7 @@
       .#{$prefix}designer-card {
         margin-top: 10px;
 
-        @include breakpoints("mobile") {
+        @include breakpoints("md") {
           flex-basis: 100%;
         }
       }
