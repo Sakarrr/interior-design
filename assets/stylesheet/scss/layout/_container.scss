@@ -2,12 +2,6 @@
   max-width: 100%;
 }
 
-
 .interior-showcase, .interior-services, .interior-designers, .interior-packages, .interior-contact {
-  margin: 75px 0;
-  padding: 0 16px;
-
-  @include breakpoints("lg") {
-    margin: 80px 60px 120px 60px;
-  }
+  margin-top: 75px;
 }
