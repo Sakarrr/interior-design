@@ -10,15 +10,13 @@
     width: 100%;
   }
 
-  .f-col-4 {
-    @include breakpoints("md") {
-      width: 33.33%;
-    }
-  }
-
-  .f-col-6 {
-    @include breakpoints("md") {
-      width: 50%;
+  @include breakpoints("md") {
+    @for $i from 1 through 12 {
+      $width: percentage($i/12);
+  
+      .f-col-#{$i} {
+        width: $width;
+      }
     }
   }
 }
