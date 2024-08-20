@@ -1,32 +1,35 @@
-.button {
+.btn-primary {
   display: inline-block;
   text-decoration: none;
   color: #000;
   background-color: #fff;
   padding: 12px 24px;
+  border: unset;
 
   &.btn-bg-primary {
     color: #fff;
     background-color: $color__primary;
-
-    &.btn-fluid {
-      width: 100%;
-    }
   }
 
-  @include btnHover(inset, 400px, 0, #000, 1.2);
+  &.btn-fluid {
+    width: 100%;
+
+    @include btnHover(inset, #000, $x: 2000px);
+  }
+
+  @include btnHover(inset, #000, $x: 400px);
 }
 
-button {
-  display: block;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  color: #fff;
-  background-color: $color__primary;
-  width: 100%;
-  padding: 10px 0;
-  border: unset;
-  line-height: 1;
+// button {
+//   display: block;
+//   font-family: "Poppins", sans-serif;
+//   font-size: 16px;
+//   color: #fff;
+//   background-color: $color__primary;
+//   width: 100%;
+//   padding: 10px 0;
+//   border: unset;
+//   line-height: 1;
 
-  @include btnHover(inset, 2000px, 0, #000, 1);
-}
+//   @include btnHover(inset, 2000px, 0, #000, 1);
+// }

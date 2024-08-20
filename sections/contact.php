@@ -22,7 +22,7 @@ function contact()
                         <label>Message</label>
                         <input type="text">
                     </div>
-                    <button type="submit">Send Message</button>
+                    <button class="btn-primary btn-bg-primary btn-fluid" type="submit">Send Message</button>
                 </form>
             </div>
         </div>
