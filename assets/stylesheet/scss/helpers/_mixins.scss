@@ -1,21 +1,10 @@
-@mixin header-style {
-  content: "";
-  position: absolute;
-  display: block;
-  background-color: $color__primary;
-  border-radius: 4px;
-  height: 10px;
-  width: 60px;
-  bottom: -40px;
-}
-
 @mixin row {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -10px;
 }
 
-@mixin btnHover($dir, $color, $scale: 1, $x: 0, $y: 0)  {
+@mixin btnHover($dir, $color, $scale: 1, $x: 0, $y: 0) {
   &:hover {
     cursor: pointer;
     box-shadow: $dir $x $y 0 0 $color;

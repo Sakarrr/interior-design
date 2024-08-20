@@ -7,25 +7,16 @@
 .#{$prefix}main {
   margin: 0;
   padding: 0 16px;
- 
+
   @include breakpoints("lg") {
     max-width: 100%;
     margin-left: 60px;
     padding: 0 120px;
     transition: all 0.4s ease-in-out;
-  
   }
 
   h2 {
-    position: relative;
-    font-size: 48px;
-    font-weight: 400;
-    color: $color__primary;
-    margin-bottom: 70px;
-
-    &::after {
-      @include header-style;
-    }
+    @extend subheader-design;
   }
 
   &.sidebar-open {
