@@ -2,7 +2,8 @@
   display: none;
 
   @include breakpoints("lg") {
-    width: 100%;
+    display: block;
+  width: 100%;
   color: #fff;
   background-color: $color__primary;
   }
