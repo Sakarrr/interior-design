@@ -24,27 +24,3 @@
     transition: all 0.4s ease-in-out;
   }
 }
-
-@mixin breakpoints($key) {
-  // @if $breakpoint == "mobile" {
-  //   @media (max-width: $break_point_md) {
-  //     @content;
-  //   }
-  // }
-  // @if $breakpoint == "tablet" {
-  //   @media (max-width: $break_point_lg) {
-  //     @content;
-  //   }
-  // }
-  // @if $breakpoint == "desktop" {
-  //   @media (min-width: $break_point_lg) {
-  //     @content;
-  //   }
-  // }
- 
-  $size : map-get($brkpoints, $key);
-
-  @media screen and (min-width: $size) {
-    @content
-  }
-}
