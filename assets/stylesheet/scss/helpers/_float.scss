@@ -1,5 +1,7 @@
 /* Float classes */
-$screen: xs, sm, md, lg;
+$screens: xs, sm, md, lg;
+$cols: 4, 6;
+
 .f-row {
   margin: 0 -10px;
 
@@ -11,12 +13,20 @@ $screen: xs, sm, md, lg;
     width: 100%;
   }
 
-  @include breakpoints("md") {
-    @for $i from 1 through 12 {
-      $width: percentage($i/12);
+  // @include breakpoints("md") {
+  //   @for $i from 1 through 12 {
+  //     $width: percentage($i/12);
 
-      .f-col-#{$i} {
-        width: $width;
+  //     .f-col-#{$i} {
+  //       width: $width;
+  //     }
+  //   }
+  // }
+
+  @each $screen in $screens {
+    @each $col in $cols {
+      .f-col-#{$screen}-#{$col} {
+        width: percentage($col/12);
       }
     }
   }
