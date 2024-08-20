@@ -1,7 +1,7 @@
 .#{$prefix}showcase {
   .#{$prefix}heading {
     font-weight: 400;
-    @include animate('fade-text 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both');
+    @include animate("fade-text 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both");
   }
 
   .#{$prefix}showcase-photogrid {
@@ -50,7 +50,7 @@
       &:hover {
         opacity: 1;
         transform: scale(1.2);
-        transition: all 0.4s ease-in-out;
+        @include transition("all 0.4s ease-in-out");
       }
     }
   }

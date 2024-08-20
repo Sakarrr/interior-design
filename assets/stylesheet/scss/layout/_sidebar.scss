@@ -1,7 +1,7 @@
 /* Interior Sidebar */
 .#{$prefix}sidebar {
   display: none;
- 
+
   @include breakpoints("lg") {
     display: block;
     position: fixed;
@@ -13,7 +13,7 @@
     height: 100%;
     overflow: hidden;
     z-index: 6;
-    transition: all 0.4s;
+    @include transition("all 0.4s");
   }
 
   .container {
@@ -21,7 +21,7 @@
 
     @include breakpoints("lg") {
       padding: 0 8px;
-    margin: 0;
+      margin: 0;
     }
   }
 
@@ -44,7 +44,7 @@
     font-size: 32px;
     max-width: 30px;
     margin: 100px 10px 80px 10px;
-    @include animate('fade-text 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both');
+    @include animate("fade-text 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both");
   }
 
   ul {
@@ -69,14 +69,14 @@
         color: #000;
         background: #fff;
         transform: scale(1.1);
-        transition: all 0.4s ease-in-out;
+        @include transition("all 0.4s ease-in-out");
       }
     }
   }
 
   &.sidebar-open {
     width: 300px;
-    transition: all 0.4s;
+    @include transition("all 0.4s");
     overflow: auto;
 
     .container {
@@ -112,7 +112,7 @@
 
 .close-sidebar {
   .#{$prefix}arrow {
-    transition: all 0.4s;
+    @include transition("all 0.4s");
     transform: rotate(180deg);
   }
 }

@@ -18,3 +18,17 @@
   webkit-animation: #{$animation};
   animation: #{$animation};
 }
+
+@mixin transition($transition) {
+  -webkit-transition: #{$transition};
+  -moz-transition: #{$transition};
+  -ms-transition: #{$transition};
+  transition: #{$transition};
+}
+
+@mixin animate($animation) {
+  -webkit-animation: #{$animation};
+  -moz-animation: #{$animation};
+  -ms-animation: #{$animation};
+  animation: #{$animation};
+}

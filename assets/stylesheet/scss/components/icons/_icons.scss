@@ -1,7 +1,7 @@
 .#{$prefix}arrow {
   display: inline-block;
   position: relative;
-  transition: all 0.4s;
+  @include transition('all 0.4s');
 
   .line {
     position: absolute;
