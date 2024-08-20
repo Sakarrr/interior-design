@@ -1,5 +1,5 @@
 /* Float classes */
-$screens: xs, sm, md, lg;
+$screens: sm, md, lg;
 $cols: 4, 6;
 
 .f-row {
@@ -26,7 +26,9 @@ $cols: 4, 6;
   @each $screen in $screens {
     @each $col in $cols {
       .f-col-#{$screen}-#{$col} {
-        width: percentage($col/12);
+        @include breakpoints($screen) {
+          width: percentage($col/12);
+        }
       }
     }
   }

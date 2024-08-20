@@ -1,5 +1,5 @@
 /* Grid layouts */
-$screens: xs, sm, md, lg;
+$screens: sm, md, lg;
 $cols: 2, 3;
 
 .grid {
@@ -11,7 +11,9 @@ $cols: 2, 3;
 @each $screen in $screens {
   @each $col in $cols {
     .grid-cols-#{$screen}-#{$col} {
-      grid-template-columns: repeat($col, 1fr);
+      @include breakpoints($screen) {
+        grid-template-columns: repeat($col, 1fr);
+      }
     }
   }
 }
