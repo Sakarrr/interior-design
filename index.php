@@ -56,7 +56,7 @@
 
         <?php
         include './sections/designers.php';
-        echo designers('row', 'col col-lg-4');
+        echo designers('row', 'col col-md-6 col-lg-4');
         ?>
 
         <?php

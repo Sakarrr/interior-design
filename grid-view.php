@@ -56,7 +56,7 @@
 
         <?php
         include './sections/designers.php';
-        echo designers('grid grid-cols-lg-3', '');
+        echo designers('grid grid-cols-md-2 grid-cols-lg-3', '');
         ?>
 
         <?php

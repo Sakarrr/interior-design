@@ -44,7 +44,7 @@
 
         <?php
         include './sections/designers.php';
-        echo designers('f-row', 'f-col f-col-lg-4');
+        echo designers('f-row', 'f-col f-col-md-6 f-col-lg-4');
         ?>
 
         <?php
