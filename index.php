@@ -68,12 +68,12 @@
         include './sections/contact.php';
         echo contact();
         ?>
+    </div>
 
-        <?php
-        include './sections/footer.php';
+    <?php
+        include './footer.php';
         echo footer();
         ?>
-    </div>
 
     <?php include './scripts.php' ?>
 </body>

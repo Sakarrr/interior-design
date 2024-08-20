@@ -59,9 +59,10 @@
     </div>
 
     <?php
-    include './sections/footer.php';
-    echo footer();
-    ?>
+        include './footer.php';
+        echo footer();
+        ?>
+
 
     <?php include './scripts.php' ?>
 </body>
