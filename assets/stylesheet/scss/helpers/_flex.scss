@@ -22,14 +22,3 @@ $cols: 4, 6;
     }
   }
 }
-
-// @include breakpoints("md") {
-//   @for $i from 1 through 12 {
-//     $width: percentage($i/12);
-
-//     .col-lg-#{$i} {
-//       flex: 0 0 $width;
-//       width: $width;
-//     }
-//   }
-// }

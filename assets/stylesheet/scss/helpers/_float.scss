@@ -13,16 +13,6 @@ $cols: 4, 6;
     width: 100%;
   }
 
-  // @include breakpoints("md") {
-  //   @for $i from 1 through 12 {
-  //     $width: percentage($i/12);
-
-  //     .f-col-#{$i} {
-  //       width: $width;
-  //     }
-  //   }
-  // }
-
   @each $screen in $screens {
     @each $col in $cols {
       .f-col-#{$screen}-#{$col} {
