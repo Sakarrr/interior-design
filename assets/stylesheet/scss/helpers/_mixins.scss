@@ -15,11 +15,11 @@
   margin: 0 -10px;
 }
 
-@mixin btnHover($dir, $x: 0, $y: 0, $color, $scale) {
+@mixin btnHover($dir, $color, $scale, $x: 0, $y: 0)  {
   &:hover {
     cursor: pointer;
     box-shadow: $dir $x $y 0 0 $color;
-    color: #fff;
+    color: $color;
     transform: scale($scale);
     transition: all 0.4s ease-in-out;
   }

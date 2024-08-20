@@ -26,6 +26,7 @@ button {
   width: 100%;
   padding: 10px 0;
   border: unset;
+  line-height: 1;
 
   @include btnHover(inset, 2000px, 0, #000, 1);
 }
