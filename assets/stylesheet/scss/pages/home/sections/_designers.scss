@@ -10,10 +10,6 @@
     .f-row {
       .#{$prefix}designer-card {
         margin-top: 10px;
-
-        @include breakpoints("md") {
-          flex-basis: 100%;
-        }
       }
     }
 
