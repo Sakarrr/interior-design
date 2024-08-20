@@ -5,11 +5,11 @@
         <div class="container">
             <h2> Designers. </h2>
 
-            <p>
+            <p class="section-description">
                 The best team in the world.
             </p>
 
-            <p>
+            <p class="section-description">
                 We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -19,7 +19,7 @@
                 commodo consequat.
             </p>
 
-            <p><b>Our designers are thoughtfully chosen:</b></p>
+            <p class="section-description"><b>Our designers are thoughtfully chosen:</b></p>
 
             <div class="interior-designers-list">
                 <div class="<?php echo $row ?>">

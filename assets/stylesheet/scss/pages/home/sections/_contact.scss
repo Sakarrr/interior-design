@@ -1,7 +1,8 @@
 .#{$prefix}contact {
   .contact-form {
-    div {
-      margin: 16px 0;
+    div,
+    button {
+      margin-top: 16px;
     }
 
     input {
@@ -18,3 +19,4 @@
     }
   }
 }
+           

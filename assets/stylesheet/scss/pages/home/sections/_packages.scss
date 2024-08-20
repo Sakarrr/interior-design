@@ -1,6 +1,6 @@
 .#{$prefix}packages {
   p {
-    margin: 16px 0;
+    margin-top: 16px;
   }
 
   .row,
@@ -11,16 +11,17 @@
   }
 
   .packages-list {
-    @include breakpoints("md") {
+    margin-top: 16px;
 
-    }
-    
     ul {
       list-style-type: none;
       text-align: center;
       width: 100%;
 
       li {
+        padding: 20px 0;
+        background-color: #f1f1f1;
+        border-bottom: 1px solid #ddd;
         &:first-child {
           color: #fff;
           background-color: #616161;
@@ -30,11 +31,6 @@
             background-color: $color__primary;
           }
         }
-
-        padding: 20px 0;
-        background-color: #f1f1f1;
-        border-bottom: 1px solid #ddd;
-
         h3 {
           font-size: 30px;
           font-weight: normal;
