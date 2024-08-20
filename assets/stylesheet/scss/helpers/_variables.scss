@@ -4,6 +4,17 @@ $color__primary: #f44336;
 // Base Typography
 $base_typography: "Poppins", sans-serif;
 
+// Typography sizes
+$font-sizes :("xs":12px, "sm": 14px, "reg":16px, "md":18px, "lg": 20px, "xl" :24px, "xxl": 64px);
+
+@each $name, $size in $font-sizes {
+    .it-fs-#{$name} {
+        font-size: #{$size};
+    }
+}
+
+
+
 // Prefix
 $prefix: interior-;
 

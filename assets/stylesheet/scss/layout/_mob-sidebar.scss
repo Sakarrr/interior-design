@@ -22,11 +22,6 @@
     .row {
       align-items: center;
 
-      .#{$prefix}sidebar-toggle,
-      .#{$prefix}branding {
-        font-size: 24px;
-      }
-
       .#{$prefix}sidebar-toggle {
         padding: 8px 16px;
         margin: 0 16px;

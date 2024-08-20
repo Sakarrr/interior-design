@@ -5,10 +5,10 @@ function mobile_sidebar()
     <div class="interior-mob-navbar">
         <div class="container">
             <div class="row">
-                <div class="interior-sidebar-toggle" id="interior-sidebar-toggle">
+                <div class="interior-sidebar-toggle it-fs-xl" id="interior-sidebar-toggle">
                     ☰
                 </div>
-                <div class="interior-branding">
+                <div class="interior-branding it-fs-xl">
                     Company Name
                 </div>
             </div>
