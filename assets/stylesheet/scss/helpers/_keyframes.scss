@@ -28,19 +28,19 @@
 
 @include keyframes("slide-down") {
   0% {
-    transform: translateY(0);
+    @include transform("translateY(0)");
   }
   100% {
-    transform: translateY(100%);
+    @include transform("translateY(100%)");
   }
 }
 
 @include keyframes("grow-shrink") {
   0%,
   100% {
-    transform: scale(1);
+    @include transform("scale(1)");
   }
   50% {
-    transform: scale(1.5);
+    @include transform("scale(1.5)");
   }
 }
