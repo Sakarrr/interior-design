@@ -24,3 +24,8 @@
     transition: all 0.4s ease-in-out;
   }
 }
+
+@mixin animate($animation) {
+  webkit-animation: #{$animation};
+  animation: #{$animation};
+}
