@@ -34,7 +34,7 @@
     <div class="id-main">
         <?php
         include './sections/showcase.php';
-        echo showcase('f-row', 'f-col f-col-lg-6')
+        echo showcase('id-f-row', 'id-f-col id-f-col-lg-6')
         ?>
 
         <?php
@@ -44,12 +44,12 @@
 
         <?php
         include './sections/designers.php';
-        echo designers('f-row', 'f-col f-col-md-6 f-col-lg-4');
+        echo designers('id-f-row', 'id-f-col id-f-col-md-6 id-f-col-lg-4');
         ?>
 
         <?php
         include './sections/packages.php';
-        echo packages('f-row', 'f-col f-col-lg-6');
+        echo packages('id-f-row', 'id-f-col id-f-col-lg-6');
         ?>
 
         <?php

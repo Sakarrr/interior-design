@@ -2,26 +2,26 @@
 $screens: sm, md, lg;
 $cols: 4, 6;
 
-.f-row {
+.#{$prefix}f-row {
   margin: 0 -10px;
   @extend %clearfix;
 }
 
-.f-col {
+.#{$prefix}f-col {
   padding: 0 10px;
   float: left;
   width: 100%;
 }
 
 @each $col in $cols {
-  .f-col-#{$col} {
+  .#{$prefix}f-col-#{$col} {
     width: percentage($col/12);
   }
 }
 
 @each $screen in $screens {
   @each $col in $cols {
-    .f-col-#{$screen}-#{$col} {
+    .#{$prefix}f-col-#{$screen}-#{$col} {
       @include breakpoints($screen) {
         width: percentage($col/12);
       }
