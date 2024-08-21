@@ -4,7 +4,7 @@ function navbar()
 ?>
     <div class="id-navbar">
         <div class="id-container">
-            <div class="id-row">
+            <div class="id-row id-nav">
                 <div class="id-logo">
                     <h2>
                         Company Name
