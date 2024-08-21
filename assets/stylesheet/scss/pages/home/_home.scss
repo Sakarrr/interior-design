@@ -6,12 +6,12 @@
 
 .#{$prefix}main {
   margin: 0;
-  padding: 0 16px;
+  padding: 0 16px 60px;
 
   @include breakpoints("lg") {
     max-width: 100%;
     margin-left: 60px;
-    padding: 0 120px;
+    padding: 0 120px 80px;
     @include transition;
   }
 
