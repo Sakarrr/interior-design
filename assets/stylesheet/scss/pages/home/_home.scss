@@ -1,5 +1,4 @@
 @import "./sections/showcase";
-@import "./sections/services";
 @import "./sections/designers";
 @import "./sections/packages";
 @import "./sections/contact";
@@ -32,4 +31,8 @@
       padding: 0 0 80px;
     }
   }
+}
+
+.#{$prefix}section-description {
+  margin-top: 16px;
 }
