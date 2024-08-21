@@ -12,7 +12,7 @@
     max-width: 100%;
     margin-left: 60px;
     padding: 0 120px;
-    @include transition("all 0.4s ease-in-out");
+    @include transition;
   }
 
   h2 {

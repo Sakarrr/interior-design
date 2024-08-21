@@ -14,7 +14,7 @@
     box-shadow: $box-shadow;
     color: #fff;
     transform: $transform;
-    transition: all 0.4s ease-in-out;
+    @include transition;
   }
 }
 
@@ -25,7 +25,7 @@
   transform: #{$transform};
 }
 
-@mixin transition($transition) {
+@mixin transition($transition: all 0.4s) {
   -webkit-transition: #{$transition};
   -moz-transition: #{$transition};
   -ms-transition: #{$transition};

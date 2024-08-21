@@ -12,7 +12,7 @@
     width: 60px;
     height: 100%;
     z-index: 6;
-    @include transition("all 0.4s");
+    @include transition;
   }
 
   .#{$prefix}sidebar-close {
@@ -62,14 +62,14 @@
         color: #000;
         background: #fff;
         @include transform("scale(1.1)");
-        @include transition("all 0.4s ease-in-out");
+        @include transition;
       }
     }
   }
 
   &.sidebar-open {
     width: 300px;
-    @include transition("all 0.4s");
+    @include transition;
     overflow: auto;
     margin: 0;
     padding: 8px 16px;
@@ -103,7 +103,7 @@
 
 .close-sidebar {
   .#{$prefix}arrow {
-    @include transition("all 0.4s");
+    @include transition;
     transform: rotate(180deg);
   }
 }
@@ -117,6 +117,6 @@
   &:hover {
     cursor: pointer;
     box-shadow: inset 60px 0 0 0 #000;
-    transition: all 0.4s ease-in-out;
+    @include transition;
   }
 }
