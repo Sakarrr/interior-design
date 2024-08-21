@@ -3,9 +3,9 @@
 
   @include breakpoints("lg") {
     display: block;
-  width: 100%;
-  color: #fff;
-  background-color: $color__primary;
+    width: 100%;
+    color: #fff;
+    background-color: $color__primary;
   }
 
   .container {

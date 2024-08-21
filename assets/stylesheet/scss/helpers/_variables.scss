@@ -5,13 +5,21 @@ $color__primary: #f44336;
 $base_typography: "Poppins", sans-serif;
 
 // Typography sizes
-$font-sizes :("xs":12px, "sm": 14px, "reg":16px, "md":18px, "lg": 20px, "xl" :24px, "xxl": 64px);
+$font-sizes: (
+  "xs": 12px,
+  "sm": 14px,
+  "reg": 16px,
+  "md": 18px,
+  "lg": 20px,
+  "xl": 24px,
+  "xxl": 64px,
+);
 
 // Typography classes
 @each $name, $size in $font-sizes {
-    .it-fs-#{$name} {
-        font-size: #{$size};
-    }
+  .it-fs-#{$name} {
+    font-size: #{$size};
+  }
 }
 
 // Prefix
