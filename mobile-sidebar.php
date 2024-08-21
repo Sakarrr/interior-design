@@ -5,10 +5,10 @@ function mobile_sidebar()
     <div class="id-mob-navbar">
         <div class="id-container">
             <div class="id-row">
-                <div class="id-sidebar-toggle it-fs-xl" id="id-sidebar-toggle">
+                <div class="id-sidebar-toggle id-fs-xl" id="id-sidebar-toggle">
                     ☰
                 </div>
-                <div class="id-branding it-fs-xl">
+                <div class="id-branding id-fs-xl">
                     Company Name
                 </div>
             </div>

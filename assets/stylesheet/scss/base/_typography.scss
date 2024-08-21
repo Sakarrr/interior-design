@@ -1,0 +1,6 @@
+// Typography classes
+@each $name, $size in $font-sizes {
+  .id-fs-#{$name} {
+    font-size: #{$size};
+  }
+}

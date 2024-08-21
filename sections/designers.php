@@ -26,7 +26,7 @@
                     <div class="id-designer-card <?php echo $col ?>">
                         <img src="https://www.w3schools.com/w3images/team2.jpg">
                         <div class="card-content">
-                            <h3 class="it-fs-xl">John Doe</h3>
+                            <h3 class="id-fs-xl">John Doe</h3>
                             <span>CEO & Founder</span>
                             <p>
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
@@ -36,7 +36,7 @@
                     <div class="id-designer-card <?php echo $col ?>">
                         <img src="https://www.w3schools.com/w3images/team1.jpg">
                         <div class="card-content">
-                            <h3 class="it-fs-xl">Jane Doe</h3>
+                            <h3 class="id-fs-xl">Jane Doe</h3>
                             <span>Designer</span>
                             <p>
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
@@ -46,7 +46,7 @@
                     <div class="id-designer-card <?php echo $col ?>">
                         <img src="https://www.w3schools.com/w3images/team3.jpg">
                         <div class="card-content">
-                            <h3 class="it-fs-xl">Mike Ross</h3>
+                            <h3 class="id-fs-xl">Mike Ross</h3>
                             <span>Architect</span>
                             <p>
                                 Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.

@@ -4,7 +4,7 @@ function showcase($row, $col)
 ?>
     <div class="id-showcase id-section-margin-top" id="interior-showcase">
         <div class="id-container">
-            <h1 class="id-heading it-fs-xxl">
+            <h1 class="id-heading id-fs-xxl">
                 Interior Design
             </h1>
             <h2 class="id-showcase-heading"> Showcase. </h2>

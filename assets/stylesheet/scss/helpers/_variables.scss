@@ -15,12 +15,5 @@ $font-sizes: (
   "xxl": 64px,
 );
 
-// Typography classes
-@each $name, $size in $font-sizes {
-  .it-fs-#{$name} {
-    font-size: #{$size};
-  }
-}
-
 // Prefix
 $prefix: id-;
