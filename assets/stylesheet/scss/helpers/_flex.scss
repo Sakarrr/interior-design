@@ -12,6 +12,13 @@ $cols: 4, 6;
   max-width: 100%;
 }
 
+@each $col in $cols {
+  .col-#{$col} {
+    flex: 0 0 percentage($col/12);
+    width: percentage($col/12);
+  }
+}
+
 @each $screen in $screens {
   @each $col in $cols {
     .col-#{$screen}-#{$col} {

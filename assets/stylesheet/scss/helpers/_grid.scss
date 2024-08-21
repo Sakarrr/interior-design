@@ -8,6 +8,12 @@ $cols: 2, 3;
   gap: 15px;
 }
 
+@each $col in $cols {
+  .grid-cols-#{$col} {
+    grid-template-columns: repeat($col, 1fr);
+  }
+}
+
 @each $screen in $screens {
   @each $col in $cols {
     .grid-cols-#{$screen}-#{$col} {
