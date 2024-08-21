@@ -43,12 +43,14 @@
   ul {
     li {
       a {
-        display: flex;
+        @include row;
         align-items: center;
+        justify-content: center;
         gap: 10px;
         text-decoration: none;
         color: inherit;
         padding: 10px;
+        max-width: 260px;
 
         span {
           display: none;
@@ -79,6 +81,7 @@
     ul {
       li {
         a {
+          justify-content: unset;
           span {
             display: block;
           }
