@@ -1,32 +1,26 @@
 /* Interior Mobile Sidebar */
 .#{$prefix}mob-navbar {
   display: block;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  background-color: $color__primary;
+  color: #fff;
+  top: 0;
+  padding: 8px 0;
+  z-index: 5;
 
   @include breakpoints("lg") {
     display: none;
   }
 
-  .container {
-    position: fixed;
-    width: 100%;
-    background-color: $color__primary;
-    color: #fff;
-    top: 0;
-    padding: 8px 0;
-    z-index: 5;
+  .#{$prefix}sidebar-toggle {
+    padding: 8px 16px;
+    margin: 0 16px;
+  }
 
-    @include breakpoints("lg") {
-      margin: 0 !important;
-    }
-
-    .row {
-      align-items: center;
-
-      .#{$prefix}sidebar-toggle {
-        padding: 8px 16px;
-        margin: 0 16px;
-      }
-    }
+  .#{$prefix}branding {
+    align-self: center;
   }
 }
 
