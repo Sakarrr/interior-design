@@ -16,7 +16,7 @@
   .#{$prefix}loader-animation {
     width: 16px;
     height: 16px;
-    background-color: #ff5c35;
+    background-color: $color__primary;
     border-radius: 50%;
     @include animation("grow-shrink 1.5s infinite;");
 
