@@ -3,7 +3,7 @@ function mobile_sidebar()
 {
 ?>
     <div class="id-mob-navbar">
-        <div class="container">
+        <div class="id-container">
             <div class="id-row">
                 <div class="id-sidebar-toggle it-fs-xl" id="id-sidebar-toggle">
                     ☰
@@ -16,7 +16,7 @@ function mobile_sidebar()
     </div>
 
     <div class="id-mob-sidebar">
-        <div class="container">
+        <div class="id-container">
             <div class="id-sidebar-close" id="id-sidebar-close">
                 <span>Close Menu</span>
             </div>

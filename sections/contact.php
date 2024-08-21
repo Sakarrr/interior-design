@@ -2,8 +2,8 @@
 function contact()
 {
 ?>
-    <div class="id-contact" id="interior-contact">
-        <div class="container">
+    <div class="id-contact id-section-margin-top" id="interior-contact">
+        <div class="id-container">
             <h2>Contact.</h2>
             <p>
                 Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!

@@ -2,8 +2,8 @@
 function showcase($row, $col)
 {
 ?>
-    <div class="id-showcase" id="interior-showcase">
-        <div class="container">
+    <div class="id-showcase id-section-margin-top" id="interior-showcase">
+        <div class="id-container">
             <h1 class="id-heading it-fs-xxl">
                 Interior Design
             </h1>

@@ -35,7 +35,7 @@
 
     <div class="id-main">
         <div class="open-sidebar" id="open-sidebar">
-            <div class="container">
+            <div class="id-container">
                 <a class="sidebar-toggle">
                     <div class="id-arrow">
                         <div class="line"></div>

@@ -1,8 +1,8 @@
 <?php function designers($row, $col)
 {
 ?>
-    <div class="id-designers" id="interior-designers">
-        <div class="container">
+    <div class="id-designers id-section-margin-top" id="interior-designers">
+        <div class="id-container">
             <h2> Designers. </h2>
 
             <p class="section-description">

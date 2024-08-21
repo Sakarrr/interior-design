@@ -2,7 +2,7 @@
 {
 ?>
     <div class="id-sidebar">
-        <div class="container">
+        <div class="id-container">
             <div class="id-sidebar-header">
                 <b>Company Name</b>
             </div>

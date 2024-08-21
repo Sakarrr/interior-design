@@ -1,11 +1,11 @@
-.container {
+.#{$prefix}container {
   max-width: 100%;
 }
 
-.interior-showcase,
-.interior-services,
-.interior-designers,
-.interior-packages,
-.interior-contact {
-  margin-top: 80px;
+.#{$prefix}section-margin-top {
+  margin-top: 60px;
+  
+  @include breakpoints("md") {
+    margin-top: 100px;
+  }
 }

@@ -2,8 +2,8 @@
 function packages($row, $col)
 {
 ?>
-    <div class="id-packages" id="interior-packages">
-        <div class="container">
+    <div class="id-packages id-section-margin-top" id="interior-packages">
+        <div class="id-container">
 
             <h2>Packages.</h2>
             <p>

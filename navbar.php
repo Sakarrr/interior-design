@@ -3,7 +3,7 @@ function navbar()
 {
 ?>
     <div class="id-navbar">
-        <div class="container">
+        <div class="id-container">
             <div class="id-row">
                 <div class="id-logo">
                     <h2>
