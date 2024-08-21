@@ -9,11 +9,11 @@
     <?php include './stylesheets.php' ?>
 </head>
 
-<div class="loader-container">
-    <div class="loader">
-        <div class="loader-animation"></div>
-        <div class="loader-animation"></div>
-        <div class="loader-animation"></div>
+<div class="id-loader-container">
+    <div class="id-loader">
+        <div class="id-loader-animation"></div>
+        <div class="id-loader-animation"></div>
+        <div class="id-loader-animation"></div>
     </div>
 </div>
 
