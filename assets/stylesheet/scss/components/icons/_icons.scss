@@ -19,13 +19,3 @@
     @include transform("rotate(45deg)");
   }
 }
-
-.#{$prefix}chevron {
-  position: relative;
-  top: 6px;
-  border: solid #fff;
-  border-width: 0px 2px 2px 0px;
-  width: 20px;
-  height: 20px;
-  @include transform("rotate(-135deg)");
-}
