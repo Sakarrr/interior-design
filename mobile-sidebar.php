@@ -22,7 +22,7 @@ function mobile_sidebar()
             </div>
             <div class="interior-sidebar-menu">
                 <ul class="mobile-menu">
-                   
+
                 </ul>
             </div>
         </div>
