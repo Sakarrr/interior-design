@@ -3,7 +3,7 @@ $screens: sm, md, lg;
 $cols: 4, 6;
 
 .row {
-  @include row;
+  @extend %flex;
 }
 
 .col {

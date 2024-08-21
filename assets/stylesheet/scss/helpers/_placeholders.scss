@@ -1,3 +1,8 @@
+%flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 %clearfix {
   &::before,
   &::after {
