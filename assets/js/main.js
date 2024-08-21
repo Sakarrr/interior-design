@@ -72,10 +72,11 @@ primaryMenuItems.forEach(function (menuItem) {
   mobileMenuContainer.appendChild(menuItem.cloneNode(true));
 });
 
-let sidebarOpenBtn = document.querySelector(".open-sidebar");
+let sidebarOpenBtn = document.querySelector(".id-toggle-icon");
 
 sidebarOpenBtn.addEventListener("click", function () {
+  console.log("clicked");
   document.querySelector(".id-sidebar").classList.toggle("sidebar-open");
   document.querySelector(".id-main").classList.toggle("sidebar-open");
-  document.querySelector(".open-sidebar").classList.toggle("close-sidebar");
+  document.querySelector(".id-toggle-icon").classList.toggle("sidebar-close");
 });

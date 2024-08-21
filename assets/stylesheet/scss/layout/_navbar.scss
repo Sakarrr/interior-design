@@ -21,11 +21,14 @@
       padding: 0 10px;
 
       a {
-        color: #fff;
+        color: inherit;
+      }
 
-        &:hover {
-          opacity: 0.6;
-        }
+      &:hover {
+        color: #000;
+        background: #fff;
+        @include transform("scale(1.1)");
+        @include transition;
       }
     }
   }

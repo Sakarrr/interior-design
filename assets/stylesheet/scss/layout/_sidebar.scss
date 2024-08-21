@@ -1,31 +1,67 @@
 /* Interior Sidebar */
 .#{$prefix}sidebar {
   display: none;
+  ul {
+    li {
+      a {
+        @extend %flex;
+        justify-content: center;
+        color: inherit;
+        padding: 10px;
+
+        span {
+          display: none;
+        }
+      }
+
+      &:hover {
+        color: #000;
+        background: #fff;
+        @include transform("scale(1.1)");
+        @include transition;
+      }
+    }
+  }
 
   @include breakpoints("lg") {
     display: block;
     position: fixed;
-    font-weight: 500;
     color: #fff;
     background-color: $color__primary;
     top: 0;
     width: 60px;
     height: 100%;
     z-index: 6;
-    @include transition;
   }
 
-  .#{$prefix}sidebar-close {
-    display: none;
-    justify-content: center;
+  &.sidebar-open {
+    display: block;
+    font-weight: 500;
+    width: 300px;
+    overflow: auto;
+    margin: 0;
+    padding: 8px 16px;
+    @include transition;
 
-    @include breakpoints("lg") {
-      display: flex;
+    .#{$prefix}sidebar-header {
+      visibility: visible;
     }
 
-    span {
-      font-size: 22px;
-      padding: 8px 16px;
+    ul {
+      li {
+        a {
+          align-items: center;
+          justify-content: unset;
+          max-width: 260px;
+          overflow: hidden;
+          word-break: break-all;
+          gap: 10px;
+
+          span {
+            display: block;
+          }
+        }
+      }
     }
   }
 
@@ -38,85 +74,33 @@
       "fade-text 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both"
     );
   }
-
-  ul {
-    li {
-      a {
-        @extend %flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        color: inherit;
-        padding: 10px;
-        max-width: 260px;
-        overflow: hidden;
-        word-break: break-all;
-
-        span {
-          display: none;
-        }
-      }
-
-      &:hover {
-        cursor: pointer;
-        color: #000;
-        background: #fff;
-        @include transform("scale(1.1)");
-        @include transition;
-      }
-    }
-  }
-
-  &.sidebar-open {
-    width: 300px;
-    @include transition;
-    overflow: auto;
-    margin: 0;
-    padding: 8px 16px;
-
-    .#{$prefix}sidebar-header {
-      visibility: visible;
-    }
-
-    ul {
-      li {
-        a {
-          justify-content: unset;
-          span {
-            display: block;
-          }
-        }
-      }
-    }
-  }
 }
 
-.open-sidebar {
+.id-desktop-sidebar-toggle {
   display: none;
+  margin-top: 20px;
 
   @include breakpoints("lg") {
     display: block;
   }
 
-  margin-top: 20px;
-}
-
-.close-sidebar {
-  .#{$prefix}arrow {
-    @include transition;
-    transform: rotate(180deg);
+  .sidebar-close {
+    .#{$prefix}arrow {
+      @include transition;
+      transform: rotate(180deg);
+    }
   }
-}
 
-.sidebar-toggle {
-  display: inline-flex;
-  background-color: $color__primary;
-  padding: 20px;
-  border-radius: 50%;
+  .id-toggle-icon {
+    display: inline-flex;
+    background-color: $color__primary;
+    padding: 20px;
+    border-radius: 50%;
 
-  &:hover {
-    cursor: pointer;
-    box-shadow: inset 60px 0 0 0 #000;
-    @include transition;
+    &:hover {
+      cursor: pointer;
+      box-shadow: inset 60px 0 0 0 #000;
+      @include transition;
+    }
   }
 }

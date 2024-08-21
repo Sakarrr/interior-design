@@ -40,15 +40,15 @@
 
   &.open {
     display: block;
-  }
 
-  .#{$prefix}sidebar-close {
-    display: flex;
-    justify-content: center;
+    .#{$prefix}sidebar-close {
+      display: flex;
+      justify-content: center;
 
-    span {
-      font-size: 22px;
-      padding: 8px 16px;
+      span {
+        font-size: 22px;
+        padding: 8px 16px;
+      }
     }
   }
 
@@ -57,17 +57,11 @@
       font-size: 18px;
 
       a {
-        display: block;
+        @extend %flex;
+        align-items: center;
+        gap: 5px;
         color: inherit;
         padding: 10px;
-      }
-
-      &:hover {
-        cursor: pointer;
-        color: #000;
-        background: #fff;
-        @include transform("scale(1.1)");
-        @include transition;
       }
     }
   }
