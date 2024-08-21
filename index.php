@@ -44,6 +44,7 @@
                 </a>
             </div>
         </div>
+        
         <?php
         include './sections/showcase.php';
         echo showcase('id-row', 'id-col id-col-lg-6')

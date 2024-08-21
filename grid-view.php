@@ -34,9 +34,9 @@
     </div>
 
     <div class="id-main">
-        <div class="open-sidebar" id="open-sidebar">
+        <div class="id-desktop-sidebar-toggle" id="id-sidebar-toggle">
             <div class="id-container">
-                <a class="sidebar-toggle">
+                <a class="id-toggle-icon">
                     <div class="id-arrow">
                         <div class="line"></div>
                         <div class="chevron"></div>
@@ -44,6 +44,7 @@
                 </a>
             </div>
         </div>
+
         <?php
         include './sections/showcase.php';
         echo showcase('id-grid id-grid-cols-lg-2', '')
