@@ -4,21 +4,26 @@ $cols: 4, 6;
 
 .f-row {
   margin: 0 -10px;
-
   @extend %clearfix;
+}
 
-  .f-col {
-    padding: 0 10px;
-    float: left;
-    width: 100%;
+.f-col {
+  padding: 0 10px;
+  float: left;
+  width: 100%;
+}
+
+@each $col in $cols {
+  .f-col-#{$col} {
+    width: percentage($col/12);
   }
+}
 
-  @each $screen in $screens {
-    @each $col in $cols {
-      .f-col-#{$screen}-#{$col} {
-        @include breakpoints($screen) {
-          width: percentage($col/12);
-        }
+@each $screen in $screens {
+  @each $col in $cols {
+    .f-col-#{$screen}-#{$col} {
+      @include breakpoints($screen) {
+        width: percentage($col/12);
       }
     }
   }
