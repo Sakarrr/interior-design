@@ -1,7 +1,9 @@
 .#{$prefix}showcase {
   .#{$prefix}heading {
     font-weight: 400;
-    @include animate("fade-text 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both");
+    @include animation(
+      "fade-text 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both"
+    );
   }
 
   .#{$prefix}showcase-photogrid {
