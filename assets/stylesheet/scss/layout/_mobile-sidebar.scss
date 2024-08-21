@@ -38,20 +38,6 @@
   padding: 8px 16px;
   margin: 0;
 
-  &.open {
-    display: block;
-
-    .#{$prefix}sidebar-close {
-      display: flex;
-      justify-content: center;
-
-      span {
-        font-size: 22px;
-        padding: 8px 16px;
-      }
-    }
-  }
-
   ul {
     li {
       font-size: 18px;
@@ -62,6 +48,20 @@
         gap: 5px;
         color: inherit;
         padding: 10px;
+      }
+    }
+  }
+
+  &.open {
+    display: block;
+
+    .#{$prefix}sidebar-close {
+      display: flex;
+      justify-content: center;
+
+      span {
+        font-size: 22px;
+        padding: 8px 16px;
       }
     }
   }
