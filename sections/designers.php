@@ -3,7 +3,7 @@
 ?>
     <div class="id-designers id-section-margin-top" id="interior-designers">
         <div class="id-container">
-            <h2> Designers. </h2>
+            <h2 class="id-section-title"> Designers. </h2>
 
             <p class="section-description">
                 The best team in the world.

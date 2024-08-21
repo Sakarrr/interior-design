@@ -15,10 +15,6 @@
     @include transition;
   }
 
-  h2 {
-    @extend %subheader-design;
-  }
-
   &.sidebar-open {
     margin-left: 300px;
     @include transition("all 0.2s ease-in-out");

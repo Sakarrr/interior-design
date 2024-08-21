@@ -5,7 +5,7 @@ function packages($row, $col)
     <div class="id-packages id-section-margin-top" id="interior-packages">
         <div class="id-container">
 
-            <h2>Packages.</h2>
+            <h2 class="id-section-title">Packages.</h2>
             <p>
                 Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

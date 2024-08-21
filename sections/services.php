@@ -4,7 +4,7 @@ function services()
 ?>
     <div class="id-services id-section-margin-top" id="interior-services">
         <div class="id-container">
-            <h2> Services. </h2>
+            <h2 class="id-section-title"> Services. </h2>
             <p>
                 We are a interior design service that focus on what's best for your home and what's best for you!
             </p>

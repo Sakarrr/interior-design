@@ -7,7 +7,7 @@ function showcase($row, $col)
             <h1 class="id-heading id-fs-xxl">
                 Interior Design
             </h1>
-            <h2 class="id-showcase-heading"> Showcase. </h2>
+            <h2 class="id-section-title"> Showcase. </h2>
             <div class="id-showcase-photogrid">
                 <div class="<?php echo $row ?>">
                     <div class="photo <?php echo $col ?>">
