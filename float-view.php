@@ -31,7 +31,7 @@
     ?>
 
     <div class="overlay" id="overlay"></div>
-    <div class="interior-main">
+    <div class="id-main">
         <?php
         include './sections/showcase.php';
         echo showcase('f-row', 'f-col f-col-lg-6')

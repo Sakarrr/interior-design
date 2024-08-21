@@ -2,7 +2,7 @@
 function services()
 {
 ?>
-    <div class="interior-services" id="interior-services">
+    <div class="id-services" id="interior-services">
         <div class="container">
             <h2> Services. </h2>
             <p>

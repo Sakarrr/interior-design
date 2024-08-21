@@ -10,9 +10,9 @@ document.onreadystatechange = function () {
 };
 
 // Js to toggle sidebar on mobile view.
-let sidebarToggle = document.querySelector("#interior-sidebar-toggle");
-let sidebarClose = document.querySelector("#interior-sidebar-close");
-let sidebar = document.querySelector(".interior-mob-sidebar");
+let sidebarToggle = document.querySelector("#id-sidebar-toggle");
+let sidebarClose = document.querySelector("#id-sidebar-close");
+let sidebar = document.querySelector(".id-mob-sidebar");
 let overlay = document.querySelector("#overlay");
 
 sidebarToggle.addEventListener("click", () => {
@@ -41,7 +41,7 @@ document.addEventListener("click", (event) => {
 });
 
 // Js to implement smooth scroll to top.
-let scrollToTopBtn = document.querySelector(".interior-scroll-to-top");
+let scrollToTopBtn = document.querySelector(".id-scroll-to-top");
 
 window.onscroll = function () {
   scrollFunction();
@@ -75,7 +75,7 @@ primaryMenuItems.forEach(function (menuItem) {
 let sidebarOpenBtn = document.querySelector(".open-sidebar");
 
 sidebarOpenBtn.addEventListener("click", function () {
-  document.querySelector(".interior-sidebar").classList.toggle("sidebar-open");
-  document.querySelector(".interior-main").classList.toggle("sidebar-open");
+  document.querySelector(".id-sidebar").classList.toggle("sidebar-open");
+  document.querySelector(".id-main").classList.toggle("sidebar-open");
   document.querySelector(".open-sidebar").classList.toggle("close-sidebar");
 });

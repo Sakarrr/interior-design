@@ -2,25 +2,25 @@
 function mobile_sidebar()
 {
 ?>
-    <div class="interior-mob-navbar">
+    <div class="id-mob-navbar">
         <div class="container">
             <div class="row">
-                <div class="interior-sidebar-toggle it-fs-xl" id="interior-sidebar-toggle">
+                <div class="id-sidebar-toggle it-fs-xl" id="id-sidebar-toggle">
                     ☰
                 </div>
-                <div class="interior-branding it-fs-xl">
+                <div class="id-branding it-fs-xl">
                     Company Name
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="interior-mob-sidebar">
+    <div class="id-mob-sidebar">
         <div class="container">
-            <div class="interior-sidebar-close" id="interior-sidebar-close">
+            <div class="id-sidebar-close" id="id-sidebar-close">
                 <span>Close Menu</span>
             </div>
-            <div class="interior-sidebar-menu">
+            <div class="id-sidebar-menu">
                 <ul class="mobile-menu">
 
                 </ul>

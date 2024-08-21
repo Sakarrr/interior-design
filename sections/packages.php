@@ -2,7 +2,7 @@
 function packages($row, $col)
 {
 ?>
-    <div class="interior-packages" id="interior-packages">
+    <div class="id-packages" id="interior-packages">
         <div class="container">
 
             <h2>Packages.</h2>
@@ -38,7 +38,7 @@ function packages($row, $col)
                                 <span>per room</span>
                             </li>
                             <li>
-                                <a href="#" class="btn-primary">Sign up</a>
+                                <a href="#" class="id-btn-primary">Sign up</a>
                             </li>
                         </ul>
                     </div>
@@ -68,7 +68,7 @@ function packages($row, $col)
                                 <span>per room</span>
                             </li>
                             <li>
-                                <a href="#" class="btn-primary btn-bg-primary">Sign up</a>
+                                <a href="#" class="id-btn-primary id-btn-bg-primary">Sign up</a>
                             </li>
                         </ul>
                     </div>

@@ -2,7 +2,7 @@
 function contact()
 {
 ?>
-    <div class="interior-contact" id="interior-contact">
+    <div class="id-contact" id="interior-contact">
         <div class="container">
             <h2>Contact.</h2>
             <p>
@@ -22,7 +22,7 @@ function contact()
                         <label>Message</label>
                         <input type="text">
                     </div>
-                    <button class="btn-primary btn-bg-primary btn-fluid" type="submit">Send Message</button>
+                    <button class="id-btn-primary id-btn-bg-primary id-btn-fluid" type="submit">Send Message</button>
                 </form>
             </div>
         </div>

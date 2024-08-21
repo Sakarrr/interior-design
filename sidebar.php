@@ -1,12 +1,12 @@
 <?php function sidebar()
 {
 ?>
-    <div class="interior-sidebar">
+    <div class="id-sidebar">
         <div class="container">
-            <div class="interior-sidebar-header">
+            <div class="id-sidebar-header">
                 <b>Company Name</b>
             </div>
-            <div class="interior-sidebar-menu">
+            <div class="id-sidebar-menu">
                 <ul class="primary-menu">
                     <li class="it-fs-xl"><a href="#"><ion-icon name="home"></ion-icon><span>Home</span> </a></li>
                     <li class="it-fs-xl"><a href="#interior-showcase"><ion-icon name="images"></ion-icon><span>Showcase</span> </a></li>

@@ -2,15 +2,15 @@
 function navbar()
 {
 ?>
-    <div class="interior-navbar">
+    <div class="id-navbar">
         <div class="container">
             <div class="row">
-                <div class="interior-logo">
+                <div class="id-logo">
                     <h2>
                         Company Name
                     </h2>
                 </div>
-                <div class="interior-nav-menu">
+                <div class="id-nav-menu">
                     <ul class="row">
                         <li><a href="#">Home</a></li>
                         <li><a href="#interior-showcase">Showcase</a></li>

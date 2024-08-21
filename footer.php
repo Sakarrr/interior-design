@@ -2,12 +2,12 @@
 function footer()
 {
 ?>
-    <div class="interior-footer">
+    <div class="id-footer">
         <p>Template by <a href="#">w3.css</a>. Enhanced by .</p>
     </div>
 
-    <a class="interior-scroll-to-top">
-        <div class="interior-chevron"></div>
+    <a class="id-scroll-to-top">
+        <div class="id-chevron"></div>
     </a>
 <?php
 }

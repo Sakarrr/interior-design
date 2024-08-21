@@ -1,7 +1,7 @@
 <?php function designers($row, $col)
 {
 ?>
-    <div class="interior-designers" id="interior-designers">
+    <div class="id-designers" id="interior-designers">
         <div class="container">
             <h2> Designers. </h2>
 
@@ -21,9 +21,9 @@
 
             <p class="section-description"><b>Our designers are thoughtfully chosen:</b></p>
 
-            <div class="interior-designers-list">
+            <div class="id-designers-list">
                 <div class="<?php echo $row ?>">
-                    <div class="interior-designer-card <?php echo $col ?>">
+                    <div class="id-designer-card <?php echo $col ?>">
                         <img src="https://www.w3schools.com/w3images/team2.jpg">
                         <div class="card-content">
                             <h3 class="it-fs-xl">John Doe</h3>
@@ -33,7 +33,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="interior-designer-card <?php echo $col ?>">
+                    <div class="id-designer-card <?php echo $col ?>">
                         <img src="https://www.w3schools.com/w3images/team1.jpg">
                         <div class="card-content">
                             <h3 class="it-fs-xl">Jane Doe</h3>
@@ -43,7 +43,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="interior-designer-card <?php echo $col ?>">
+                    <div class="id-designer-card <?php echo $col ?>">
                         <img src="https://www.w3schools.com/w3images/team3.jpg">
                         <div class="card-content">
                             <h3 class="it-fs-xl">Mike Ross</h3>

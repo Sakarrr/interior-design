@@ -33,11 +33,11 @@
     <div class="overlay" id="overlay">
     </div>
 
-    <div class="interior-main">
+    <div class="id-main">
         <div class="open-sidebar" id="open-sidebar">
             <div class="container">
                 <a class="sidebar-toggle">
-                    <div class="interior-arrow">
+                    <div class="id-arrow">
                         <div class="line"></div>
                         <div class="chevron"></div>
                     </div>
