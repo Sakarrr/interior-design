@@ -35,18 +35,11 @@
   height: 100%;
   overflow: auto;
   z-index: 10;
+  padding: 8px 16px;
+  margin: 0;
 
   &.open {
     display: block;
-  }
-
-  .container {
-    padding: 8px 16px;
-    margin: 0;
-
-    @include breakpoints("lg") {
-      margin: 0 !important;
-    }
   }
 
   .#{$prefix}sidebar-close {
