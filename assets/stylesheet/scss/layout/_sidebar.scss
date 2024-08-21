@@ -35,12 +35,12 @@
     font-size: 32px;
     max-width: 30px;
     margin: 100px 10px 80px 10px;
-    @include animation("fade-text 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both");
+    @include animation(
+      "fade-text 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both"
+    );
   }
 
   ul {
-    list-style-type: none;
-
     li {
       a {
         display: flex;
