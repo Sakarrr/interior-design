@@ -46,7 +46,7 @@
         </div>
         <?php
         include './sections/showcase.php';
-        echo showcase('grid grid-cols-lg-2', '')
+        echo showcase('id-grid id-grid-cols-lg-2', '')
         ?>
 
         <?php
@@ -56,12 +56,12 @@
 
         <?php
         include './sections/designers.php';
-        echo designers('grid grid-cols-md-2 grid-cols-lg-3', '');
+        echo designers('id-grid id-grid-cols-md-2 id-grid-cols-lg-3', '');
         ?>
 
         <?php
         include './sections/packages.php';
-        echo packages('grid grid-cols-lg-2', '');
+        echo packages('id-grid id-grid-cols-lg-2', '');
         ?>
 
         <?php

@@ -2,21 +2,20 @@
 $screens: sm, md, lg;
 $cols: 2, 3;
 
-.grid {
+.#{$prefix}grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 15px;
 }
 
 @each $col in $cols {
-  .grid-cols-#{$col} {
+  .#{$prefix}grid-cols-#{$col} {
     grid-template-columns: repeat($col, 1fr);
   }
 }
 
 @each $screen in $screens {
   @each $col in $cols {
-    .grid-cols-#{$screen}-#{$col} {
+    .#{$prefix}grid-cols-#{$screen}-#{$col} {
       @include breakpoints($screen) {
         grid-template-columns: repeat($col, 1fr);
       }
