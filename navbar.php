@@ -4,14 +4,14 @@ function navbar()
 ?>
     <div class="id-navbar">
         <div class="container">
-            <div class="row">
+            <div class="id-row">
                 <div class="id-logo">
                     <h2>
                         Company Name
                     </h2>
                 </div>
                 <div class="id-nav-menu">
-                    <ul class="row">
+                    <ul class="id-row">
                         <li><a href="#">Home</a></li>
                         <li><a href="#interior-showcase">Showcase</a></li>
                         <li><a href="#interior-services">Services</a></li>

@@ -2,17 +2,17 @@
 $screens: sm, md, lg;
 $cols: 4, 6;
 
-.row {
+.#{$prefix}row {
   @extend %flex;
 }
 
-.col {
+.#{$prefix}col {
   padding: 0 10px;
   @include flex-width(100%);
 }
 
 @each $col in $cols {
-  .col-#{$col} {
+  .#{$prefix}col-#{$col} {
     flex: 0 0 percentage($col/12);
     width: percentage($col/12);
   }
@@ -20,7 +20,7 @@ $cols: 4, 6;
 
 @each $screen in $screens {
   @each $col in $cols {
-    .col-#{$screen}-#{$col} {
+    .#{$prefix}col-#{$screen}-#{$col} {
       @include breakpoints($screen) {
         flex: 0 0 percentage($col/12);
         width: percentage($col/12);

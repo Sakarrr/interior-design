@@ -4,7 +4,7 @@ function mobile_sidebar()
 ?>
     <div class="id-mob-navbar">
         <div class="container">
-            <div class="row">
+            <div class="id-row">
                 <div class="id-sidebar-toggle it-fs-xl" id="id-sidebar-toggle">
                     ☰
                 </div>
