@@ -16,15 +16,6 @@
     @include transition("all 0.4s");
   }
 
-  .container {
-    margin: 0 !important;
-
-    @include breakpoints("lg") {
-      padding: 0 8px;
-      margin: 0;
-    }
-  }
-
   .#{$prefix}sidebar-close {
     display: none;
     justify-content: center;
@@ -78,11 +69,8 @@
     width: 300px;
     @include transition("all 0.4s");
     overflow: auto;
-
-    .container {
-      margin: 0;
-      padding: 8px 16px;
-    }
+    margin: 0;
+    padding: 8px 16px;
 
     .#{$prefix}sidebar-header {
       visibility: visible;

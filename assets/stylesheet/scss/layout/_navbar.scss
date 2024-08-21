@@ -1,36 +1,32 @@
 .#{$prefix}navbar {
   display: none;
+  padding: 32px;
+  width: 100%;
+  color: #fff;
+  background-color: $color__primary;
 
   @include breakpoints("lg") {
     display: block;
-    width: 100%;
-    color: #fff;
-    background-color: $color__primary;
   }
 
-  .container {
-    margin-top: 0;
-    padding: 32px;
+  .row {
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    .row {
-      align-items: center;
-      justify-content: space-between;
+  ul {
+    list-style-type: none;
+    margin-left: 20px;
 
-      ul {
-        list-style-type: none;
-        margin-left: 20px;
+    li {
+      padding: 0 10px;
 
-        li {
-          padding: 0 10px;
+      a {
+        text-decoration: none;
+        color: #fff;
 
-          a {
-            text-decoration: none;
-            color: #fff;
-
-            &:hover {
-              opacity: 0.6;
-            }
-          }
+        &:hover {
+          opacity: 0.6;
         }
       }
     }
