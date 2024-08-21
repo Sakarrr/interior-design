@@ -9,12 +9,12 @@
   max-width: $width;
 }
 
-@mixin btnHover($dir, $color, $scale: 1, $x: 0, $y: 0) {
+@mixin btnHover($box-shadow, $transform: none) {
   &:hover {
     cursor: pointer;
-    box-shadow: $dir $x $y 0 0 $color;
+    box-shadow: $box-shadow;
     color: #fff;
-    transform: scale($scale);
+    transform: $transform;
     transition: all 0.4s ease-in-out;
   }
 }

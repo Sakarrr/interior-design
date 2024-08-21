@@ -14,8 +14,8 @@
   &.btn-fluid {
     width: 100%;
 
-    @include btnHover(inset, #000, $x: 2000px);
+    @include btnHover(inset 2000px 0 0 0 #000);
   }
 
-  @include btnHover(inset, #000, $x: 400px);
+  @include btnHover(inset 2000px 0 0 0 #000, scale(1.2));
 }
