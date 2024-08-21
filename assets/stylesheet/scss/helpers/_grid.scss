@@ -1,4 +1,4 @@
-/* Container layouts */
+/* Container classes */
 .#{$prefix}container {
   max-width: 100%;
 }
@@ -11,7 +11,7 @@
   }
 }
 
-/* Grid layouts */
+/* Grid classes */
 $screens: sm, md, lg;
 $cols: 2, 3;
 
