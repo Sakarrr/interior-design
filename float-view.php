@@ -18,7 +18,7 @@
 </div>
 
 <body class="container-center">
-    <div class="overlay main"></div>
+    <div class="id-overlay main"></div>
 
     <?php
     include 'navbar.php';
@@ -30,7 +30,7 @@
     echo mobile_sidebar();
     ?>
 
-    <div class="overlay" id="overlay"></div>
+    <div class="id-overlay" id="id-overlay"></div>
     <div class="id-main">
         <?php
         include './sections/showcase.php';

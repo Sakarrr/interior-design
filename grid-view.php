@@ -18,7 +18,7 @@
 </div>
 
 <body>
-    <div class="overlay main"></div>
+    <div class="id-overlay main"></div>
 
     <?php
     include 'sidebar.php';
@@ -30,7 +30,7 @@
     echo mobile_sidebar();
     ?>
 
-    <div class="overlay" id="overlay">
+    <div class="id-overlay" id="id-overlay">
     </div>
 
     <div class="id-main">

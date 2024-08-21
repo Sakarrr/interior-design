@@ -13,7 +13,7 @@ document.onreadystatechange = function () {
 let sidebarToggle = document.querySelector("#id-sidebar-toggle");
 let sidebarClose = document.querySelector("#id-sidebar-close");
 let sidebar = document.querySelector(".id-mob-sidebar");
-let overlay = document.querySelector("#overlay");
+let overlay = document.querySelector("#id-overlay");
 
 sidebarToggle.addEventListener("click", () => {
   sidebar.classList.toggle("open");
