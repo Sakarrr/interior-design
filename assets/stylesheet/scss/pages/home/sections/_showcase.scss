@@ -7,11 +7,8 @@
   }
 
   .#{$prefix}showcase-photogrid {
-    .row,
-    .f-row {
-      .photo {
-        margin-top: 20px;
-      }
+    .photo {
+      padding: 20px 10px 0;
     }
 
     .photo {

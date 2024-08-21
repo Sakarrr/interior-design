@@ -7,7 +7,6 @@ $cols: 4, 6;
 }
 
 .#{$prefix}col {
-  padding: 0 10px;
   @include flex-width(100%);
 }
 

@@ -4,11 +4,8 @@
   }
 
   .#{$prefix}designers-list {
-    .row,
-    .f-row {
-      .#{$prefix}designer-card {
-        margin-top: 10px;
-      }
+    .#{$prefix}designer-card {
+      margin-top: 10px;
     }
 
     img {
