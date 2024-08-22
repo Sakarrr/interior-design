@@ -1,13 +1,13 @@
-// Add loader.
-document.onreadystatechange = function () {
-  if (document.readyState !== "complete") {
-    document.querySelector("body").style.visibility = "hidden";
-    document.querySelector(".id-loader-container").style.visibility = "visible";
-  } else {
-    document.querySelector(".id-loader-container").style.visibility = "hidden";
-    document.querySelector("body").style.visibility = "visible";
-  }
-};
+// // Add loader.
+// document.onreadystatechange = function () {
+//   if (document.readyState !== "complete") {
+//     document.querySelector("body").style.visibility = "hidden";
+//     document.querySelector(".id-loader-container").style.visibility = "visible";
+//   } else {
+//     document.querySelector(".id-loader-container").style.visibility = "hidden";
+//     document.querySelector("body").style.visibility = "visible";
+//   }
+// };
 
 // Js to toggle sidebar on mobile view.
 let sidebarToggle = document.querySelector("#id-sidebar-toggle");
