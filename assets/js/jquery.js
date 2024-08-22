@@ -80,3 +80,11 @@ $(document).ready(function () {
     this.classList.toggle("sidebar-close");
   });
 });
+
+// Scroll reveal.
+ScrollReveal().reveal(".id-showcase", { delay: 500 });
+ScrollReveal().reveal(".id-services", { delay: 500 });
+ScrollReveal().reveal(".id-designers", { delay: 500 });
+ScrollReveal().reveal(".id-packages", { delay: 500 });
+ScrollReveal().reveal(".id-contact", { delay: 500 });
+ScrollReveal().reveal(".id-footer", { delay: 500 });
