@@ -40,6 +40,27 @@ $(document).ready(function () {
     }
   });
 
+  // Js to implement smooth scroll to top.
+  let scrollToTopBtn = $(".id-scroll-to-top");
+
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (document.documentElement.scrollTop > 250) {
+      scrollToTopBtn.css({ display: "flex" });
+    } else {
+      scrollToTopBtn.css({ display: "none" });
+    }
+  }
+
+  scrollToTopBtn.click(scrollToTop);
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   // Toggle sidebar width.
   $(".id-toggle-icon").on("click", function () {
     $(".id-sidebar").toggleClass("sidebar-open");

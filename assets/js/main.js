@@ -40,26 +40,26 @@
 //   }
 // });
 
-// Js to implement smooth scroll to top.
-let scrollToTopBtn = document.querySelector(".id-scroll-to-top");
+// // Js to implement smooth scroll to top.
+// let scrollToTopBtn = document.querySelector(".id-scroll-to-top");
 
-window.onscroll = function () {
-  scrollFunction();
-};
+// window.onscroll = function () {
+//   scrollFunction();
+// };
 
-function scrollFunction() {
-  if (document.documentElement.scrollTop > 250) {
-    scrollToTopBtn.style.display = "flex";
-  } else {
-    scrollToTopBtn.style.display = "none";
-  }
-}
+// function scrollFunction() {
+//   if (document.documentElement.scrollTop > 250) {
+//     scrollToTopBtn.style.display = "flex";
+//   } else {
+//     scrollToTopBtn.style.display = "none";
+//   }
+// }
 
-scrollToTopBtn.addEventListener("click", scrollToTop);
+// scrollToTopBtn.addEventListener("click", scrollToTop);
 
-function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-}
+// function scrollToTop() {
+//   window.scrollTo({ top: 0, behavior: "smooth" });
+// }
 
 // Clone and append menu items.
 let primaryMenu = document.querySelector(".primary-menu");
