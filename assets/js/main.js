@@ -9,36 +9,36 @@
 //   }
 // };
 
-// Js to toggle sidebar on mobile view.
-let sidebarToggle = document.querySelector("#id-sidebar-toggle");
-let sidebarClose = document.querySelector("#id-sidebar-close");
-let sidebar = document.querySelector(".id-mob-sidebar");
-let overlay = document.querySelector("#id-overlay");
+// // Js to toggle sidebar on mobile view.
+// let sidebarToggle = document.querySelector("#id-sidebar-toggle");
+// let sidebarClose = document.querySelector("#id-sidebar-close");
+// let sidebar = document.querySelector(".id-mob-sidebar");
+// let overlay = document.querySelector("#id-overlay");
 
-sidebarToggle.addEventListener("click", () => {
-  sidebar.classList.toggle("open");
-  overlay.classList.toggle("open");
-});
+// sidebarToggle.addEventListener("click", () => {
+//   sidebar.classList.toggle("open");
+//   overlay.classList.toggle("open");
+// });
 
-sidebarClose.addEventListener("click", () => {
-  sidebar.classList.toggle("open");
-  overlay.classList.toggle("open");
-});
+// sidebarClose.addEventListener("click", () => {
+//   sidebar.classList.toggle("open");
+//   overlay.classList.toggle("open");
+// });
 
-document.addEventListener("click", (event) => {
-  if (
-    !sidebar.contains(event.target) &&
-    !sidebarToggle.contains(event.target)
-  ) {
-    if (
-      sidebar.classList.contains("open") ||
-      overlay.classList.contains("open")
-    ) {
-      sidebar.classList.remove("open");
-      overlay.classList.remove("open");
-    }
-  }
-});
+// document.addEventListener("click", (event) => {
+//   if (
+//     !sidebar.contains(event.target) &&
+//     !sidebarToggle.contains(event.target)
+//   ) {
+//     if (
+//       sidebar.classList.contains("open") ||
+//       overlay.classList.contains("open")
+//     ) {
+//       sidebar.classList.remove("open");
+//       overlay.classList.remove("open");
+//     }
+//   }
+// });
 
 // Js to implement smooth scroll to top.
 let scrollToTopBtn = document.querySelector(".id-scroll-to-top");

@@ -10,6 +10,36 @@ $(document).ready(function () {
     }
   };
 
+  // Js to toggle sidebar on mobile view.
+  let sidebarToggle = $("#id-sidebar-toggle");
+  let sidebarClose = $("#id-sidebar-close");
+  let sidebar = $(".id-mob-sidebar");
+  let overlay = $("#id-overlay");
+
+  sidebarToggle.on("click", () => {
+    sidebar.toggleClass("open");
+    overlay.toggleClass("open");
+  });
+
+  sidebarClose.on("click", () => {
+    sidebar.toggleClass("open");
+    overlay.toggleClass("open");
+  });
+
+  $(document).on("click", (event) => {
+    if (
+      !sidebar.is(event.target) && // Check if the target is not the sidebar itself
+      !sidebar.has(event.target).length && // Check if the target is not a child of the sidebar
+      !sidebarToggle.is(event.target) && // Check if the target is not the sidebar toggle button
+      !sidebarToggle.has(event.target).length // Check if the target is not a child of the toggle button
+    ) {
+      if (sidebar.hasClass("open") || overlay.hasClass("open")) {
+        sidebar.removeClass("open");
+        overlay.removeClass("open");
+      }
+    }
+  });
+
   // Toggle sidebar width.
   $(".id-toggle-icon").on("click", function () {
     $(".id-sidebar").toggleClass("sidebar-open");
