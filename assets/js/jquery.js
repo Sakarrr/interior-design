@@ -61,6 +61,18 @@ $(document).ready(function () {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
+  // Clone and append menu items.
+  let primaryMenu = $(".primary-menu");
+  let mobileMenuContainer = $(".mobile-menu");
+  let navBarContainer = $(".nav-menu");
+
+  let primaryMenuItems = primaryMenu.find("li");
+
+  primaryMenuItems.each(function () {
+    mobileMenuContainer.append($(this).clone(true));
+    navBarContainer.append($(this).clone(true));
+  });
+
   // Toggle sidebar width.
   $(".id-toggle-icon").on("click", function () {
     $(".id-sidebar").toggleClass("sidebar-open");

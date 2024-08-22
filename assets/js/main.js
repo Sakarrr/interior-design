@@ -62,15 +62,15 @@
 // }
 
 // Clone and append menu items.
-let primaryMenu = document.querySelector(".primary-menu");
-let mobileMenuContainer = document.querySelector(".mobile-menu");
-let navBarContainer = document.querySelector(".nav-menu");
+// let primaryMenu = document.querySelector(".primary-menu");
+// let mobileMenuContainer = document.querySelector(".mobile-menu");
+// let navBarContainer = document.querySelector(".nav-menu");
 
-let primaryMenuItems = primaryMenu.querySelectorAll("li");
+// let primaryMenuItems = primaryMenu.querySelectorAll("li");
 
-primaryMenuItems.forEach(function (menuItem) {
-  mobileMenuContainer.appendChild(menuItem.cloneNode(true));
-});
+// primaryMenuItems.forEach(function (menuItem) {
+//   mobileMenuContainer.appendChild(menuItem.cloneNode(true));
+// });
 
 // let sidebarOpenBtn = document.querySelector(".id-toggle-icon");
 
