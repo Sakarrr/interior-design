@@ -42,9 +42,17 @@
                         <div class="chevron"></div>
                     </div>
                 </a>
+                <div class="id-cross" id="id-cross">
+                    <div class="line-one"></div>
+                    <div class="line-two"></div>
+                </div>
             </div>
         </div>
-        
+
+        <div class="id-cross-icon" id="id-sidebar-toggle">
+
+        </div>
+
         <?php
         include './sections/showcase.php';
         echo showcase('id-row', 'id-col id-col-lg-6')
