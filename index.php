@@ -46,11 +46,16 @@
                     <div class="line-one"></div>
                     <div class="line-two"></div>
                 </div>
+
+                <a class="id-hamburger-icon">
+                    <div class="id-hamburger" id="id-hamburger">
+                        <div class="line-one"></div>
+                        <div class="line-two"></div>
+                        <div class="line-three"></div>
+                    </div>
+                </a>
+
             </div>
-        </div>
-
-        <div class="id-cross-icon" id="id-sidebar-toggle">
-
         </div>
 
         <?php
