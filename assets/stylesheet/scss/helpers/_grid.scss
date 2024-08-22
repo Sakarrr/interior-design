@@ -39,6 +39,7 @@ $cols: 2, 3;
 /* FlexBox classes */
 $screens: sm, md, lg;
 $cols: 4, 6;
+$direction: row, column, row-reverse, column-reverse;
 
 .#{$prefix}row {
   @extend %flex;
@@ -63,6 +64,12 @@ $cols: 4, 6;
         width: percentage($col/12);
       }
     }
+  }
+}
+
+@each $dir in $direction {
+  #{$prefix}col-#{$dir} {
+    flex-direction: $dir;
   }
 }
 
