@@ -1,0 +1,12 @@
+/* Margin classes */
+@include spacing(".id-p-", "padding");
+@include spacing(".id-p-t-", "padding-top");
+@include spacing(".id-p-b-", "padding-bottom");
+@include spacing(".id-p-l-", "padding-left");
+@include spacing(".id-p-r-", "padding-right");
+@include spacing(".id-p-x-", "padding-left", "padding-right");
+@include spacing(".id-p-y-", "padding-top", "padding-bottom");
+
+.id-p-auto {
+  padding: auto;
+}
