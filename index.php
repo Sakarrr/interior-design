@@ -42,19 +42,6 @@
                         <div class="chevron"></div>
                     </div>
                 </a>
-                <div class="id-cross" id="id-cross">
-                    <div class="line-one"></div>
-                    <div class="line-two"></div>
-                </div>
-
-                <a class="id-hamburger-icon">
-                    <div class="id-hamburger" id="id-hamburger">
-                        <div class="line-one"></div>
-                        <div class="line-two"></div>
-                        <div class="line-three"></div>
-                    </div>
-                </a>
-
             </div>
         </div>
 
