@@ -1,3 +1,6 @@
+$screens: sm, md, lg;
+$cols: 2, 3, 4, 6;
+
 /* Container classes */
 .#{$prefix}container {
   max-width: 100%;
@@ -11,9 +14,23 @@
   }
 }
 
-/* Grid classes */
-$screens: sm, md, lg;
-$cols: 2, 3;
+.#{$prefix}row {
+  @extend %flex;
+}
+
+.#{$prefix}f-row {
+  margin: 0 -10px;
+  @extend %clearfix;
+}
+
+.#{$prefix}col {
+  @include flex-width(100%);
+}
+
+.#{$prefix}f-col {
+  float: left;
+  width: 100%;
+}
 
 .#{$prefix}grid {
   display: grid;
@@ -24,6 +41,15 @@ $cols: 2, 3;
   .#{$prefix}grid-cols-#{$col} {
     grid-template-columns: repeat($col, 1fr);
   }
+
+  .#{$prefix}col-#{$col} {
+    flex: 0 0 percentage($col/12);
+    width: percentage($col/12);
+  }
+
+  .#{$prefix}f-col-#{$col} {
+    width: percentage($col/12);
+  }
 }
 
 @each $screen in $screens {
@@ -33,68 +59,14 @@ $cols: 2, 3;
         grid-template-columns: repeat($col, 1fr);
       }
     }
-  }
-}
 
-/* FlexBox classes */
-$screens: sm, md, lg;
-$cols: 4, 6;
-$direction: row, column, row-reverse, column-reverse;
-
-.#{$prefix}row {
-  @extend %flex;
-}
-
-.#{$prefix}col {
-  @include flex-width(100%);
-}
-
-@each $col in $cols {
-  .#{$prefix}col-#{$col} {
-    flex: 0 0 percentage($col/12);
-    width: percentage($col/12);
-  }
-}
-
-@each $screen in $screens {
-  @each $col in $cols {
     .#{$prefix}col-#{$screen}-#{$col} {
       @include breakpoints($screen) {
         flex: 0 0 percentage($col/12);
-        width: percentage($col/12);
+        max-width: percentage($col/12);
       }
     }
-  }
-}
 
-@each $dir in $direction {
-  #{$prefix}col-#{$dir} {
-    flex-direction: $dir;
-  }
-}
-
-/* Float classes */
-$screens: sm, md, lg;
-$cols: 4, 6;
-
-.#{$prefix}f-row {
-  margin: 0 -10px;
-  @extend %clearfix;
-}
-
-.#{$prefix}f-col {
-  float: left;
-  width: 100%;
-}
-
-@each $col in $cols {
-  .#{$prefix}f-col-#{$col} {
-    width: percentage($col/12);
-  }
-}
-
-@each $screen in $screens {
-  @each $col in $cols {
     .#{$prefix}f-col-#{$screen}-#{$col} {
       @include breakpoints($screen) {
         width: percentage($col/12);
