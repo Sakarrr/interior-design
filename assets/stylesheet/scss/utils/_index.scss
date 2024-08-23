@@ -1,6 +1,6 @@
-@import "./margin";
-@import "./padding";
-@import "./borders";
+@import "margin";
+@import "padding";
+@import "borders";
 
 .clearfix {
   @extend %clearfix;
