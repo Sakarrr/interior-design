@@ -828,9 +828,11 @@ input {
 .id-showcase .id-showcase-photogrid img {
   max-width: 100%;
   aspect-ratio: 1/0.6;
-  opacity: 0.8; }
+  opacity: 0.8;
+  filter: grayscale(100%); }
   .id-showcase .id-showcase-photogrid img:hover {
     opacity: 1;
+    filter: grayscale(0);
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);

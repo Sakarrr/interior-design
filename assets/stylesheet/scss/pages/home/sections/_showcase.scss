@@ -45,9 +45,11 @@
       max-width: 100%;
       aspect-ratio: 1/0.6;
       opacity: 0.8;
+      filter: grayscale(100%);
 
       &:hover {
         opacity: 1;
+        filter: grayscale(0);
         @include transform("scale(1.2)");
         @include transition;
       }
