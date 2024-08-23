@@ -7,11 +7,11 @@
   }
 
   .#{$prefix}showcase-photogrid {
-    .photo {
+    .#{$prefix}photo {
       padding: 20px 10px 0;
     }
 
-    .photo {
+    .#{$prefix}photo {
       &:nth-child(2) {
         order: 4;
       }

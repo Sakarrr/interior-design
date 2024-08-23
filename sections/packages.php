@@ -11,9 +11,9 @@ function packages($row, $col)
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure
             </p>
-            <div class="packages-list">
+            <div class="id-packages-list">
                 <div class="<?php echo $row ?>">
-                    <div class="package-list <?php echo $col ?>">
+                    <div class="id-package-list <?php echo $col ?>">
                         <ul>
                             <li class="id-fs-xl">
                                 Basic
@@ -43,9 +43,9 @@ function packages($row, $col)
                         </ul>
                     </div>
 
-                    <div class="package-list <?php echo $col ?> pro">
+                    <div class="id-package-list <?php echo $col ?> id-pro">
                         <ul>
-                            <li class="pro id-fs-xl">
+                            <li class="id-pro id-fs-xl">
                                 Pro
                             </li>
                             <li>

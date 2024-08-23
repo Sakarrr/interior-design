@@ -1,10 +1,10 @@
 .#{$prefix}packages {
-  .package-list {
+  .#{$prefix}package-list {
     margin-top: 10px;
     padding: 0 10px;
   }
 
-  .packages-list {
+  .#{$prefix}packages-list {
     margin-top: 16px;
 
     ul {
@@ -21,11 +21,11 @@
           background-color: #616161;
           padding: 40px 0;
 
-          &.pro {
+          &.#{$prefix}pro {
             background-color: $color__primary;
           }
         }
-        
+
         h3 {
           font-size: 30px;
           font-weight: normal;

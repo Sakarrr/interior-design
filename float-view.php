@@ -17,7 +17,7 @@
     </div>
 </div>
 
-<body class="container-center">
+<body class="id-container-center">
     <div class="id-overlay id-overlay-main"></div>
 
     <?php

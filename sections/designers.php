@@ -25,7 +25,7 @@
                 <div class="<?php echo $row ?>">
                     <div class="id-designer-card <?php echo $col ?>">
                         <img src="https://www.w3schools.com/w3images/team2.jpg">
-                        <div class="card-content">
+                        <div class="id-card-content">
                             <h3 class="id-fs-xl">John Doe</h3>
                             <span>CEO & Founder</span>
                             <p>
@@ -35,7 +35,7 @@
                     </div>
                     <div class="id-designer-card <?php echo $col ?>">
                         <img src="https://www.w3schools.com/w3images/team1.jpg">
-                        <div class="card-content">
+                        <div class="id-card-content">
                             <h3 class="id-fs-xl">Jane Doe</h3>
                             <span>Designer</span>
                             <p>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="id-designer-card <?php echo $col ?>">
                         <img src="https://www.w3schools.com/w3images/team3.jpg">
-                        <div class="card-content">
+                        <div class="id-card-content">
                             <h3 class="id-fs-xl">Mike Ross</h3>
                             <span>Architect</span>
                             <p>
