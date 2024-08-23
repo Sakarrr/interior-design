@@ -28,6 +28,7 @@
 //   margin: auto;
 // }
 
+/* Margin Classes */
 $screens: sm, md, lg;
 
 $corners: (
@@ -43,14 +44,16 @@ $corners: (
 
 @each $classname, $margin in $corners {
   @for $i from 1 to 18 {
-    #{$classname + $i} {
+    .#{$classname + $i} {
       #{$margin}: #{$i * 5};
     }
   }
+}
 
-  @for $i from 1 to 18 {
+@each $classname, $margin in $corners {
+  @for $i from 1 to 19 {
     @each $screen in $screens {
-      #{$classname + $screen}-#{$i} {
+      .#{$classname + $screen}-#{$i} {
         #{$margin}: #{$i * 5};
       }
     }
