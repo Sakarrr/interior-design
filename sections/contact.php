@@ -8,7 +8,7 @@ function contact()
             <p>
                 Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!
             </p>
-            <div class="contact-form">
+            <div class="id-contact-form">
                 <form>
                     <div class="name-container">
                         <label>Name</label>

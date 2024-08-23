@@ -885,8 +885,8 @@ input {
       .id-packages .id-packages-list ul li:last-child {
         border-bottom: none; }
 
-.id-contact .contact-form div,
-.id-contact .contact-form button {
+.id-contact .id-contact-form div,
+.id-contact .id-contact-form button {
   margin-top: 16px; }
 
 .id-main {
