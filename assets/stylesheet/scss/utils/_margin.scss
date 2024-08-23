@@ -1,33 +1,3 @@
-// Mixin for margin and padding spacings.
-@mixin spacing($class, $styles...) {
-  $max: 100;
-  $gap: 5;
-  $unit: "px";
-  $i: 0;
-
-  @while $i <= $max {
-    #{$class + $i} {
-      @each $style in $styles {
-        #{$style}: #{$i + $unit};
-      }
-    }
-    $i: $i + $gap;
-  }
-}
-
-// /* Margin classes */
-// @include spacing(".id-m-", "margin");
-// @include spacing(".id-m-t-", "margin-top");
-// @include spacing(".id-m-b-", "margin-bottom");
-// @include spacing(".id-m-l-", "margin-left");
-// @include spacing(".id-m-r-", "margin-right");
-// @include spacing(".id-m-x-", "margin-left", "margin-right");
-// @include spacing(".id-m-y-", "margin-top", "margin-bottom");
-
-// .id-m-auto {
-//   margin: auto;
-// }
-
 /* Margin Classes */
 $screens: sm, md, lg;
 
