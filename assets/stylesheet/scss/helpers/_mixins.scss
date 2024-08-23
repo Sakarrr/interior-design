@@ -33,19 +33,3 @@
   -ms-animation: #{$animation};
   animation: #{$animation};
 }
-
-@mixin spacing($class, $styles...) {
-  $max: 100;
-  $gap: 5;
-  $unit: "px";
-  $i: 0;
-
-  @while $i <= $max {
-    #{$class + $i} {
-      @each $style in $styles {
-        #{$style}: #{$i + $unit};
-      }
-    }
-    $i: $i + $gap;
-  }
-}
