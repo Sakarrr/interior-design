@@ -11,7 +11,7 @@
     display: block;
   }
 
-  &.main {
+  &.#{$prefix}main {
     display: block;
     @include animation("slide-down 1s forwards");
     background: #000;

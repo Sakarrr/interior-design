@@ -18,7 +18,7 @@
 </div>
 
 <body class="container-center">
-    <div class="id-overlay main"></div>
+    <div class="id-overlay id-main"></div>
 
     <?php
     include 'navbar.php';
