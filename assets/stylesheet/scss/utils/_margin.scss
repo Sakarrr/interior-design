@@ -37,6 +37,10 @@ $corners: (
   "#{$prefix}ml-": "margin-left",
 );
 
+.#{$prefix}m-auto {
+  margin: auto;
+}
+
 @each $classname, $margin in $corners {
   @for $i from 1 to 18 {
     #{$classname + $i} {

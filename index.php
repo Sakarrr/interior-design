@@ -47,7 +47,7 @@
 
         <?php
         include './sections/showcase.php';
-        echo showcase('id-row', 'id-col id-col-lg-6')
+        echo showcase('id-row', 'id-col id-col-sm-6')
         ?>
 
         <?php
