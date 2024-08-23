@@ -76,7 +76,7 @@
   }
 }
 
-.id-desktop-sidebar-toggle {
+.#{$prefix}desktop-sidebar-toggle {
   display: none;
   margin-top: 20px;
 
@@ -91,7 +91,7 @@
     }
   }
 
-  .id-toggle-icon {
+  .#{$prefix}toggle-icon {
     display: inline-flex;
     background-color: $color__primary;
     padding: 20px;
