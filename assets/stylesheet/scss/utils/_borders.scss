@@ -1,20 +1,28 @@
-$max: 10;
-$i: 0;
-$class: "id-b-";
-$style: "border";
-$unit: "px";
+/* Border Classes */
+$screens: sm, md, lg;
 
-@mixin border($class, $style) {
-  @while $i <= $max {
-    #{$class + $i} {
-      #{$style}: #{$i + $unit};
+$borders: (
+  "#{$prefix}border": "border",
+  "#{$prefix}border-top": "border-top",
+  "#{$prefix}border-bottom": "border-bottom",
+  "#{$prefix}border-right": "border-right",
+  "#{$prefix}border-left": "border-left",
+);
+
+@each $classname, $border in $borders {
+  @for $i from 1 to 4 {
+    .#{$classname}-#{$i} {
+      #{$border}: #{$i}px solid #000;
     }
-    $i: $i + 1;
   }
 }
 
-@include border(".id-b-", "border");
-@include border(".id-b-t-", "border-top");
-@include border(".id-b-b-", "border-bottom");
-@include border(".id-b-l-", "border-left");
-@include border(".id-b-r-", "border-right");
+@each $classname, $border in $borders {
+  @for $i from 1 to 4 {
+    @each $screen in $screens {
+      .#{$classname}-#{$screen}-#{$i} {
+        #{$border}: #{$i}px solid #000;
+      }
+    }
+  }
+}
