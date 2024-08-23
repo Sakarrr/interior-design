@@ -15,15 +15,40 @@
   }
 }
 
-/* Margin classes */
-@include spacing(".id-m-", "margin");
-@include spacing(".id-m-t-", "margin-top");
-@include spacing(".id-m-b-", "margin-bottom");
-@include spacing(".id-m-l-", "margin-left");
-@include spacing(".id-m-r-", "margin-right");
-@include spacing(".id-m-x-", "margin-left", "margin-right");
-@include spacing(".id-m-y-", "margin-top", "margin-bottom");
+// /* Margin classes */
+// @include spacing(".id-m-", "margin");
+// @include spacing(".id-m-t-", "margin-top");
+// @include spacing(".id-m-b-", "margin-bottom");
+// @include spacing(".id-m-l-", "margin-left");
+// @include spacing(".id-m-r-", "margin-right");
+// @include spacing(".id-m-x-", "margin-left", "margin-right");
+// @include spacing(".id-m-y-", "margin-top", "margin-bottom");
 
-.id-m-auto {
-  margin: auto;
+// .id-m-auto {
+//   margin: auto;
+// }
+
+$screens: sm, md, lg;
+
+$corners: (
+  "#{$prefix}mt-": "margin-top",
+  "#{$prefix}mb-": "margin-bottom",
+  "#{$prefix}mr-": "margin-right",
+  "#{$prefix}ml-": "margin-left",
+);
+
+@each $classname, $margin in $corners {
+  @for $i from 1 to 18 {
+    #{$classname + $i} {
+      #{$margin}: #{$i * 5};
+    }
+  }
+
+  @for $i from 1 to 18 {
+    @each $screen in $screens {
+      #{$classname + $screen}-#{$i} {
+        #{$margin}: #{$i * 5};
+      }
+    }
+  }
 }
