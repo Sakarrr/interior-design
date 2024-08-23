@@ -3,7 +3,7 @@
   width: 40px;
   height: 40px;
 
-  .line-one {
+  .#{$prefix}line-one {
     position: absolute;
     border-left: 2px solid #000;
     border-width: 2px;
@@ -13,7 +13,7 @@
     left: 22px;
   }
 
-  .line-two {
+  .#{$prefix}line-two {
     position: absolute;
     border-right: 2px solid #000;
     border-width: 2px;

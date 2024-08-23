@@ -38,8 +38,8 @@
             <div class="id-container">
                 <a class="id-toggle-icon">
                     <div class="id-arrow">
-                        <div class="line"></div>
-                        <div class="chevron"></div>
+                        <div class="id-arrow-line"></div>
+                        <div class="id-arrow-chevron"></div>
                     </div>
                 </a>
             </div>
