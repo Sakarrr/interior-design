@@ -81,7 +81,7 @@
         position: relative;
 
         &:hover {
-          .id-tool-tip {
+          .#{$prefix}tool-tip {
             display: block;
           }
         }
