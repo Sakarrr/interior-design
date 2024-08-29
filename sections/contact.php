@@ -20,7 +20,7 @@ function contact()
                     </div>
                     <div class="message-container">
                         <label>Message</label>
-                        <input type="text">
+                        <textarea></textarea>
                     </div>
                     <button class="id-btn-primary id-btn-bg-primary id-btn-fluid" type="submit">Send Message</button>
                 </form>

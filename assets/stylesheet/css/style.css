@@ -523,12 +523,15 @@ a {
     height: 25px;
     top: 12px; }
 
-input {
+input,
+textarea {
   display: block;
   width: 100%;
-  height: 42px;
-  border: 1px solid #ccc; }
-  input:focus-visible {
+  padding: 12px;
+  border: 1px solid #ccc;
+  field-sizing: content; }
+  input:focus-visible,
+  textarea:focus-visible {
     outline: 3px solid #f44336;
     filter: opacity(0.7);
     padding: 4px; }
