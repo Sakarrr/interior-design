@@ -820,7 +820,7 @@ textarea {
   order: 5; }
 .id-showcase .id-showcase-photogrid .id-photo:nth-child(6) {
   order: 6; }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
   .id-showcase .id-showcase-photogrid .id-photo {
     order: unset !important; } }
 .id-showcase .id-showcase-photogrid .id-photo:nth-child(1) img, .id-showcase .id-showcase-photogrid .id-photo:nth-child(2) img {

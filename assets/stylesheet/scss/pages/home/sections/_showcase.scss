@@ -24,7 +24,7 @@
         order: 6;
       }
 
-      @include breakpoints("md") {
+      @include breakpoints("sm") {
         order: unset !important;
       }
 
