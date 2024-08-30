@@ -631,6 +631,29 @@ textarea {
     width: 60px;
     bottom: 0; }
 
+.id-tool-tip {
+  display: none;
+  font-size: 12px;
+  position: absolute;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  left: 110%;
+  top: 5px;
+  width: 80px;
+  padding: 10px;
+  border-radius: 2px; }
+  .id-tool-tip::after {
+    content: "";
+    position: absolute;
+    top: 36%;
+    left: 0;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black black;
+    transform: rotate(45deg); }
+
 .id-footer {
   padding: 48px 58px;
   text-align: right;
@@ -784,28 +807,6 @@ textarea {
     position: relative; }
     .id-sidebar .id-sidebar-menu .primary-menu li:hover .id-tool-tip {
       display: block; }
-  .id-sidebar .id-sidebar-menu .id-tool-tip {
-    display: none;
-    font-size: 12px;
-    position: absolute;
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    left: 110%;
-    top: 5px;
-    width: 80px;
-    padding: 10px;
-    border-radius: 2px; }
-    .id-sidebar .id-sidebar-menu .id-tool-tip::after {
-      content: "";
-      position: absolute;
-      top: 36%;
-      left: 0;
-      margin-left: -5px;
-      border-width: 5px;
-      border-style: solid;
-      border-color: transparent transparent black black;
-      transform: rotate(45deg); }
 
 .id-desktop-sidebar-toggle {
   display: none;
