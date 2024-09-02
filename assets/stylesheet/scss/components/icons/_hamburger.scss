@@ -12,25 +12,23 @@
   height: 18px;
 
   .#{$prefix}line {
+    position: absolute;
     border-top: 2px solid #000;
     border-width: 2px;
   }
 
   .#{$prefix}line-one {
-    position: absolute;
     width: 26px;
     height: 20px;
   }
 
   .#{$prefix}line-two {
-    position: absolute;
     width: 20px;
     height: 25px;
     top: 50%;
   }
 
   .#{$prefix}line-three {
-    position: absolute;
     width: 14px;
     height: 25px;
     top: 98%;

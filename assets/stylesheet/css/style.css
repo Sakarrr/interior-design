@@ -501,19 +501,17 @@ a {
   width: 26px;
   height: 18px; }
   .id-hamburger .id-line {
+    position: absolute;
     border-top: 2px solid #000;
     border-width: 2px; }
   .id-hamburger .id-line-one {
-    position: absolute;
     width: 26px;
     height: 20px; }
   .id-hamburger .id-line-two {
-    position: absolute;
     width: 20px;
     height: 25px;
     top: 50%; }
   .id-hamburger .id-line-three {
-    position: absolute;
     width: 14px;
     height: 25px;
     top: 98%; }
