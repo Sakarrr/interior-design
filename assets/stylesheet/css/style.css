@@ -773,27 +773,30 @@ textarea {
       height: 100%;
       z-index: 6; } }
   .id-sidebar.sidebar-open {
-    display: block;
-    font-weight: 500;
-    width: 300px;
-    overflow: auto;
-    margin: 0;
-    padding: 8px 16px;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    transition: all 0.4s; }
-    .id-sidebar.sidebar-open .id-sidebar-header {
-      visibility: visible; }
-    .id-sidebar.sidebar-open ul li a {
-      align-items: center;
-      justify-content: unset;
-      max-width: 260px;
-      overflow: hidden;
-      word-break: break-all;
-      gap: 10px; }
-      .id-sidebar.sidebar-open ul li a span {
-        display: block; }
+    display: none; }
+    @media screen and (min-width: 992px) {
+      .id-sidebar.sidebar-open {
+        display: block;
+        font-weight: 500;
+        width: 300px;
+        overflow: auto;
+        margin: 0;
+        padding: 8px 16px;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        transition: all 0.4s; }
+        .id-sidebar.sidebar-open .id-sidebar-header {
+          visibility: visible; }
+        .id-sidebar.sidebar-open ul li a {
+          align-items: center;
+          justify-content: unset;
+          max-width: 260px;
+          overflow: hidden;
+          word-break: break-all;
+          gap: 10px; }
+          .id-sidebar.sidebar-open ul li a span {
+            display: block; } }
   .id-sidebar .id-sidebar-header {
     visibility: hidden;
     font-size: 32px;
@@ -932,12 +935,13 @@ textarea {
       -moz-transition: all 0.4s;
       -ms-transition: all 0.4s;
       transition: all 0.4s; } }
-  .id-main.sidebar-open {
-    margin-left: 300px;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out; }
+  @media screen and (min-width: 992px) {
+    .id-main.sidebar-open {
+      margin-left: 300px;
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; } }
 
 .id-container-center .id-main {
   padding: 0 16px 60px; }

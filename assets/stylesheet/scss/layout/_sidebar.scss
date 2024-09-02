@@ -1,6 +1,7 @@
 /* Interior Sidebar */
 .#{$prefix}sidebar {
   display: none;
+
   ul {
     li {
       a {
@@ -35,30 +36,34 @@
   }
 
   &.sidebar-open {
-    display: block;
-    font-weight: 500;
-    width: 300px;
-    overflow: auto;
-    margin: 0;
-    padding: 8px 16px;
-    @include transition;
+    display: none;
 
-    .#{$prefix}sidebar-header {
-      visibility: visible;
-    }
+    @include breakpoints("lg") {
+      display: block;
+      font-weight: 500;
+      width: 300px;
+      overflow: auto;
+      margin: 0;
+      padding: 8px 16px;
+      @include transition;
 
-    ul {
-      li {
-        a {
-          align-items: center;
-          justify-content: unset;
-          max-width: 260px;
-          overflow: hidden;
-          word-break: break-all;
-          gap: 10px;
+      .#{$prefix}sidebar-header {
+        visibility: visible;
+      }
 
-          span {
-            display: block;
+      ul {
+        li {
+          a {
+            align-items: center;
+            justify-content: unset;
+            max-width: 260px;
+            overflow: hidden;
+            word-break: break-all;
+            gap: 10px;
+
+            span {
+              display: block;
+            }
           }
         }
       }

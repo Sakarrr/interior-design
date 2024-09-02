@@ -15,8 +15,10 @@
   }
 
   &.sidebar-open {
-    margin-left: 300px;
-    @include transition("all 0.2s ease-in-out");
+    @include breakpoints("lg") {
+      margin-left: 300px;
+      @include transition("all 0.2s ease-in-out");
+    }
   }
 }
 
