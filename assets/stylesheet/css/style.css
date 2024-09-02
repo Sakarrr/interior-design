@@ -357,13 +357,11 @@
     -moz-transform: scale(1.5);
     -ms-transform: scale(1.5);
     transform: scale(1.5); } }
-:root {
+body {
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #000; }
-
-body {
-  font-family: "Poppins", sans-serif; }
 
 img {
   vertical-align: middle;
