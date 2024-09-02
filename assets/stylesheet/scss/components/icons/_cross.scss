@@ -1,6 +1,8 @@
 .#{$prefix}cross {
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 40px;
 
