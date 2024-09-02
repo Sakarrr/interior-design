@@ -1,25 +1,24 @@
 .#{$prefix}cross {
   position: relative;
-  width: 40px;
+  display: flex;
+  width: 30px;
   height: 40px;
 
   .#{$prefix}line-one {
     position: absolute;
-    border-left: 2px solid #000;
-    border-width: 2px;
-    width: 25px;
-    height: 25px;
-    transform: rotate(-40deg);
-    left: 22px;
+    height: 30px;
+    width: 2px;
+    background-color: #000;
+    transform: rotate(45deg);
+    left: 50%;
   }
 
   .#{$prefix}line-two {
     position: absolute;
-    border-right: 2px solid #000;
-    border-width: 2px;
-    width: 25px;
-    height: 25px;
-    transform: rotate(40deg);
-    left: 4px;
+    height: 30px;
+    width: 2px;
+    background-color: #000;
+    transform: rotate(-45deg);
+    left: 50%;
   }
 }

@@ -45,6 +45,11 @@
             </div>
         </div>
 
+        <div class="id-cross" id="id-cross">
+            <div class="id-line id-line-one"></div>
+            <div class="id-line id-line-two"></div>
+        </div>
+
         <a class="id-hamburger-icon">
             <div class="id-hamburger" id="id-hamburger">
                 <div class="id-line id-line-one"></div>
