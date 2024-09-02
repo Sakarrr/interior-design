@@ -45,6 +45,14 @@
             </div>
         </div>
 
+        <a class="id-hamburger-icon">
+            <div class="id-hamburger" id="id-hamburger">
+                <div class="id-line id-line-one"></div>
+                <div class="id-line id-line-two"></div>
+                <div class="id-line id-line-three"></div>
+            </div>
+        </a>
+
         <?php
         include './sections/showcase.php';
         echo showcase('id-row', 'id-col id-col-sm-6')

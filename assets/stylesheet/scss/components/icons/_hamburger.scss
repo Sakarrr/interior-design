@@ -9,31 +9,30 @@
 .#{$prefix}hamburger {
   position: relative;
   width: 26px;
-  height: 25px;
+  height: 18px;
+
+  .#{$prefix}line {
+    border-top: 2px solid #000;
+    border-width: 2px;
+  }
 
   .#{$prefix}line-one {
     position: absolute;
-    border-top: 2px solid #000;
-    border-width: 2px;
     width: 26px;
     height: 20px;
   }
 
   .#{$prefix}line-two {
     position: absolute;
-    border-top: 2px solid #000;
-    border-width: 2px;
     width: 20px;
     height: 25px;
-    top: 6px;
+    top: 50%;
   }
 
   .#{$prefix}line-three {
     position: absolute;
-    border-top: 2px solid #000;
-    border-width: 2px;
     width: 14px;
     height: 25px;
-    top: 12px;
+    top: 98%;
   }
 }

@@ -499,27 +499,24 @@ a {
 .id-hamburger {
   position: relative;
   width: 26px;
-  height: 25px; }
+  height: 18px; }
+  .id-hamburger .id-line {
+    border-top: 2px solid #000;
+    border-width: 2px; }
   .id-hamburger .id-line-one {
     position: absolute;
-    border-top: 2px solid #000;
-    border-width: 2px;
     width: 26px;
     height: 20px; }
   .id-hamburger .id-line-two {
     position: absolute;
-    border-top: 2px solid #000;
-    border-width: 2px;
     width: 20px;
     height: 25px;
-    top: 6px; }
+    top: 50%; }
   .id-hamburger .id-line-three {
     position: absolute;
-    border-top: 2px solid #000;
-    border-width: 2px;
     width: 14px;
     height: 25px;
-    top: 12px; }
+    top: 98%; }
 
 input,
 textarea {
