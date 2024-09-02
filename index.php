@@ -45,7 +45,7 @@
             </div>
         </div>
 
-        <div class="id-cross" id="id-cross">
+        <!-- <div class="id-cross" id="id-cross">
             <div class="id-line id-line-one"></div>
             <div class="id-line id-line-two"></div>
         </div>
@@ -56,7 +56,7 @@
                 <div class="id-line id-line-two"></div>
                 <div class="id-line id-line-three"></div>
             </div>
-        </a>
+        </a> -->
 
         <?php
         include './sections/showcase.php';
