@@ -489,10 +489,11 @@ a {
     left: 50%; }
 
 .id-hamburger-icon {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  height: 40px;
+  width: 40px;
   background-color: #f44336; }
 
 .id-hamburger {
@@ -505,7 +506,8 @@ a {
     border-width: 2px; }
   .id-hamburger .id-line-one {
     width: 26px;
-    height: 20px; }
+    height: 20px;
+    top: 0; }
   .id-hamburger .id-line-two {
     width: 20px;
     height: 25px;
